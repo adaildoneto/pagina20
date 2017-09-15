@@ -36,7 +36,7 @@
 
 		<nav class="nav-extended blue darken-3">
 	    <div class="nav-wrapper container">
-	      <a href="#" class="brand-logo">Página 20 Alfa</a>
+	      <a href="#" class="brand-logo">Página 20</a>
 	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      <ul id="nav-mobile" class="right hide-on-med-and-down">
 	        <li><a href="sass.html">Sass</a></li>
@@ -69,5 +69,3 @@
 	</div>
 
 			</header><!-- #header -->
-
-	
