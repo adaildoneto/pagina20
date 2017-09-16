@@ -16,3 +16,6 @@ Slick.js []
 
 Agora entendi, Neto.
 Eu acho
+
+UPDATE 00:49
+NETO TO APRENDENDO! HAHAHA
