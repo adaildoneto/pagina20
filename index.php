@@ -21,7 +21,7 @@ get_header(); ?>
 <div id="wrapper">
 	<div class="row">
 		<div class="container">
-<div id="slider" class="col s12 l9">
+<div id="slider" class="col s12 l8">
 
 		<div class="blue" style="height: 400px"></div>
 		<div class="orange" style="height: 400px"></div>
@@ -30,7 +30,7 @@ get_header(); ?>
 </div>
 
 
-<div class="col s12 l3">
+<div class="col s12 l4">
 		<ul class="collection semmargem" >
 <?php
 			$args = array (
