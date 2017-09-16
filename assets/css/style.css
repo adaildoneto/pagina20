@@ -132,8 +132,25 @@ line-height: 80px;
     z-index: 90 !important;
 }
 
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .row {
     margin-bottom: 0px;
+}
+.newsthumb {
+  min-height: 100px;
+  padding: 0px;
+  position: relative;
+}
+
+.thumbnews{
+  height: 80px;
+  width: 80px;
+  margin-right: 5px;
+
 }
 /*
 #search {
