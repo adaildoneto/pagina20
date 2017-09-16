@@ -132,6 +132,10 @@ line-height: 80px;
     z-index: 90 !important;
 }
 
+.semmargem {
+    margin: 0px!important;
+}
+
 .title {
     font-size: 18px;
     font-weight: bold;

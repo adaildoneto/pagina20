@@ -23,20 +23,20 @@ get_header(); ?>
 		<div class="container">
 <div id="slider" class="col s12 l9">
 
-		<div class="blue" style="height: 450px"></div>
-		<div class="orange" style="height: 450px"></div>
-		<div class="green" style="height: 450px"></div>
+		<div class="blue" style="height: 400px"></div>
+		<div class="orange" style="height: 400px"></div>
+		<div class="green" style="height: 400px"></div>
 
 </div>
 
 
 <div class="col s12 l3">
-		<ul class="collection" >
+		<ul class="collection semmargem" >
 <?php
 			$args = array (
 	'pagination'             => false,
 	'paged'                  => $paged,
-	'posts_per_page'         => '5',
+	'posts_per_page'         => '4',
 	'ignore_sticky_posts'    => true,
 
 );
