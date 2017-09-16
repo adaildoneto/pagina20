@@ -23,9 +23,9 @@ get_header(); ?>
 		<div class="container">
 <div id="slider" class="col s12 l8">
 
-		<div class="blue" style="height: 450px"></div>
-		<div class="orange" style="height: 450px"></div>
-		<div class="green" style="height: 450px"></div>
+		<div class="blue" style="height: 400px"></div>
+		<div class="orange" style="height: 400px"></div>
+		<div class="green" style="height: 400px"></div>
 
 </div>
 
@@ -64,6 +64,8 @@ wp_reset_query();?>
 
 </div>
 </div>
+
+
 
 
 <!-- Posts -->
