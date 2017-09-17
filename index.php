@@ -30,7 +30,7 @@ get_header(); ?>
 </div>
 
 
-<div class="col s12 m l3">
+<div class="col s12 m5 l3">
 		<ul class="collection semmargem" >
 <?php
 			$args = array (
