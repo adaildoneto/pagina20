@@ -21,3 +21,17 @@ jQuery(document).ready(function($) {
        autoplaySpeed: 4000
    });
  });
+
+ jQuery(document).ready(function($) {
+    $('#slider-destaque').slick({
+        dots:false,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 5000,
+        autoplay: true,
+        infinite: true,
+        vertical: true,
+        autoplaySpeed: 8000
+    });
+  });

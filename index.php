@@ -31,6 +31,8 @@ get_header(); ?>
 
 
 <div class="col s12 m5 l3">
+	<div id="slider-destaque">
+			<div>
 		<ul class="collection semmargem" >
 <?php
 			$args = array (
@@ -57,11 +59,16 @@ endwhile; ?>
 		</ul>
 	</div>
 
+	<div class="red" style="height:400px"></div>
+</div>
+
 <?php
 wp_reset_query();?>
 
 
 
+</div>
+</div>
 </div>
 </div>
 
