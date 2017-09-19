@@ -3,7 +3,7 @@ jQuery(window).load(function() {
  var msnry = new Masonry( container, {
 
    itemSelector: '.grid-item',
-   columnWidth: '.grid-item',
+   columnWidth: '.grid-sizer',
    columnHeight: '.bloco-img-noticias2'
  });
 

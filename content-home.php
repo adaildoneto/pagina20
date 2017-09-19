@@ -10,7 +10,7 @@
 ?>
 
 
-<div class="grid-item col s12 m6 l3">
+<div class="grid-item grid-sizer col s12 m6 l3">
 	<div class="">
 	<div class="card painel-noticias2">
 		<a href="<?php the_Permalink()?>" title="<?php the_title();?>">
