@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 
  jQuery(document).ready(function($) {
     $('#slider-destaque').slick({
-        dots:false,
+        dots:true,
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
