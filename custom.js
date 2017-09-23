@@ -30,8 +30,9 @@ jQuery(document).ready(function($) {
         slidesToScroll: 1,
         speed: 5000,
         autoplay: true,
+        centerMode: false,
+        variableHeight: true,
         infinite: true,
-        vertical: true,
         autoplaySpeed: 8000
     });
   });
