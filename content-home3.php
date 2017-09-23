@@ -8,7 +8,7 @@
  * @since 2.2.0
  */
 ?>
-<div class="grid-item col s12 m6 l6">
+<div class="grid-item col s12 m12 l6">
 
 	<div class="">
 		<div class="painel-noticias2 card">

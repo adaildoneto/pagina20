@@ -78,6 +78,18 @@ get_header(); ?>
 </div><!-- #content -->
 
 </div>
+<div class="row blue-grey lighten-4 semmargem">
+	<div class="container">
+<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+</div>
+</div>
+<div class="row blue-grey lighten-3 semmargem">
+	<div class="container">
+<?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
+</div>
+</div>
 <?php
 
 get_footer();

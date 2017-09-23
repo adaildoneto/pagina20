@@ -10,7 +10,7 @@
 ?>
 
 
-<div class="grid-item col s12 m6 l6">
+<div class="grid-item col s12 m12 l6">
 	<div class="">
 	      <div class="card painel-noticias" >
 

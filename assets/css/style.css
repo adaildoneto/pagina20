@@ -117,22 +117,19 @@ line-height: 80px;
 
 .semmargem {
     margin: 0px!important;
-    height: 400px;
-    overflow: hidden;
+
 }
 
-.title {
-    font-size: 12px;
-    line-height: 0.75;
-    font-weight: light;
-}
+
 
 .row {
     margin-bottom: 0px;
 }
+
 .newsthumb {
   min-height: 100px;
-  padding: 0px;
+  padding: 5px;
+  margin-top: 5px;
   position: relative;
 }
 
@@ -349,6 +346,11 @@ a.button-collapse{
     font-family: 'Cinzel', serif;
     font-size: 1.5rem !important;
     text-shadow: 0px 2px 2px #075368;
+}
+.titulopeuqeno {
+  font-size: 20px;
+  line-height: 15px;
+  font-family: Cairo;
 }
 
 @media (min-width: 1024px){
@@ -621,7 +623,7 @@ a.button-collapse{
 
 .painel-noticias3{
   overflow:hidden;
-  height: 175px;
+  height: 250px;
   position: relative;
 }
 .painel-noticias2
@@ -668,7 +670,7 @@ a.button-collapse{
 
 .bloco-img-noticias3{
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 
 .bloco-img-noticias5
