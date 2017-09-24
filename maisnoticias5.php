@@ -1,9 +1,8 @@
-<div class="col s12 m6 l4">
-  <div class="card">
+
   <?php
   $args = array (
   'pagination'             => true,
-  'posts_per_page'         => '2',
+  'posts_per_page'         => '3',
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
@@ -20,13 +19,13 @@ while( $query->have_posts() ) {
    if ( $query->current_post == 0 ) {  // first post
 
      echo '<div class="first-post">';
-     get_template_part( 'content', 'home6' );
+     get_template_part( 'content', 'home3' );
      echo '</div>';
 
    } else {
 
-      echo '<div class="white">';
-    	get_template_part( 'content', 'home5' );
+      echo '<div>';
+    	get_template_part( 'content', 'home4' );
       echo '</div>';
 
    }
@@ -35,5 +34,3 @@ while( $query->have_posts() ) {
 
 }
 ?>
-</div>
-</div>

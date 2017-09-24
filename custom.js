@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 
  jQuery(document).ready(function($) {
     $('#slider-destaque').slick({
-        dots:true,
+        dots:false,
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -35,4 +35,8 @@ jQuery(document).ready(function($) {
         infinite: true,
         autoplaySpeed: 8000
     });
+  });
+
+  jQuery(document).ready(function($) {
+    $('#tabs').tabs();
   });

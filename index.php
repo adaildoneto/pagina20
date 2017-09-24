@@ -20,7 +20,34 @@ get_header(); ?>
 
 <?php include (TEMPLATEPATH.'/slider.php') ?>
 
-
+<div class="row blue-grey darken-4 semmargem">
+	<div class="container">
+	    <div class="col s12 ">
+	      <ul id="tabs" class="tabs tabs-transparent">
+	        <li class="tab col s3"><a href="#test1">Test 1</a></li>
+	        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+	        <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
+	        <li class="tab col s3"><a href="#test4">Test 4</a></li>
+	      </ul>
+	    </div>
+	    <div id="test1" class="col s12">
+				<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+				<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+				<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+</div>
+	    <div id="test2" class="col s12">
+				<?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
+</div>
+	    <div id="test3" class="col s12">
+				<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+				<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+				<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
+</div>
+	    <div id="test4" class="col s12">
+				<?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
+</div>
+	  </div>
+</div>
 <!-- Posts -->
 
 <div class="row" style="display:block;">
@@ -78,13 +105,7 @@ get_header(); ?>
 </div><!-- #content -->
 
 </div>
-<div class="row blue-grey lighten-4 semmargem">
-	<div class="container">
-<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
-<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
-<?php include (TEMPLATEPATH.'/maisnoticias.php') ?>
-</div>
-</div>
+
 <div class="row blue-grey lighten-3 semmargem">
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
