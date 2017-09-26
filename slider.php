@@ -11,8 +11,8 @@
 <div class="col s12 m5 l4">
 	<div id="slider-destaque">
 
-	<div class="card red" style="height:420px"></div>
-	<div> <?php include (TEMPLATEPATH.'/maisnoticias3.php'); ?></div>
+	<div class="card red" style="height:400px"></div>
+	<div style="height:400px"> <?php include (TEMPLATEPATH.'/maisnoticias3.php'); ?></div>
 </div>
 
 <?php

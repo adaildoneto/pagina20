@@ -1,4 +1,4 @@
-<div class="col s12 m6 l4">
+
   <div class="card">
   <?php
   $args = array (
@@ -35,5 +35,4 @@ while( $query->have_posts() ) {
 
 }
 ?>
-</div>
 </div>

@@ -589,6 +589,13 @@ a.button-collapse{
   }
 
 }
+
+#slider-destaque {
+  height:410px;
+  overflow: hidden;
+}
+
+
 @media (max-width:480px){
 .destaque-titulo {
   font-size: 1.4rem !important;
