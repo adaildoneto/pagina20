@@ -333,24 +333,6 @@ if ( is_woocommerce_activated() ) {
 }
 
 
-//Adicionando responsive-img nas imaggens de todos os posts
-
-function add_responsive_class($content){
-
-        $content = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
-        $document = new DOMDocument();
-        libxml_use_internal_errors(true);
-        $document->loadHTML(utf8_decode($content));
-
-        $imgs = $document->getElementsByTagName('img');
-        foreach ($imgs as $img) {
-           $img->setAttribute('class','responsive-img');
-        }
-
-        $html = $document->saveHTML();
-        return $html;
-}
-add_filter        ('the_content', 'add_responsive_class');
 
 
 // Vai com tudo shortcodes agora tá liberado via widget de texto
