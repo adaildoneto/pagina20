@@ -35,7 +35,12 @@
 									echo $titulo;
 									?>
 								</a>
+
 						</div>
+				</div>
+				<div class="divider detalhe"></div>
+				<div class="nocanto3 small white-text">
+					<?php odin_posted_on(); ?>
 				</div>
 				<div class="nocanto4 tamanho-icones">
 

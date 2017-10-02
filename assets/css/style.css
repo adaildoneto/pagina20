@@ -576,6 +576,21 @@ a.button-collapse{
   height: 340px !important;
 }
 
+
+#slider a  {
+  font-size: 1.9rem !important;
+  line-height: 1.8rem !important;
+}
+
+.small .author .vcards a {
+  font-size: 0.5rem !important;
+  line-height: 0s.4rem !important;
+}
+
+.detalhe {
+  width: 30%;
+}
+
 .bloco-des-noticias2 a, .bloco-des-noticias4 a {
   font-size: 1.3rem !important;
   line-height: 1.4rem !important;
