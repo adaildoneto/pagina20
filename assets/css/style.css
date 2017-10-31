@@ -62,11 +62,12 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
 
  }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1349px) {
   .container {
-    width: 1170px;
+    width: 1280px!important;
   }
 }
+
 
 .icon-block {
   padding: 0 15px;

@@ -40,7 +40,7 @@
 				</div>
 				<div class="divider detalhe"></div>
 				<div class="nocanto3 small white-text">
-					<?php odin_posted_on(); ?>
+					<?php $my_date = the_date('M j, Y @ G:i', '<em>', '</em>', FALSE); echo $my_date; ?>
 				</div>
 				<div class="nocanto4 tamanho-icones">
 
