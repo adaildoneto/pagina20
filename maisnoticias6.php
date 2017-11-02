@@ -3,7 +3,7 @@
   <?php
   $args = array (
   'pagination'             => true,
-  'posts_per_page'         => '4',
+  'posts_per_page'         => '6',
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
@@ -19,7 +19,7 @@ while( $query->have_posts() ) {
 
    if ( $query->current_post == 0 ) {  // first post
 
-     echo '<div class="col s12 m6 l8">';
+     echo '<div class="col s12 m12 l8">';
     echo '<div class="video-container">
         <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>';
@@ -27,9 +27,9 @@ while( $query->have_posts() ) {
 
    } else {
 
-      echo '<div class="col s12 m6 l4 white-text">';
+      echo '<div class="col s12 m12 l4"><div class="white-text">';
     	get_template_part( 'content', 'home5' );
-      echo '</div>';
+      echo '</div></div>';
 
    }
 

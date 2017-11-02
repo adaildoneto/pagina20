@@ -78,14 +78,21 @@ get_header(); ?>
 </div><!-- #content -->
 
 </div>
-<div class="row blue-grey darken-2">
-	<div class="row blue-grey darken-4"> </div>
+<div class="row blue-grey darken-2 semmargem">
+	<div class="row blue-grey darken-4">
+		<div class="container">
+			<h4 class="white-text"><i class="material-icons">video_library</i> Videos</h4>
+		</div> </div>
 	<div class="container">
 				<?php include (TEMPLATEPATH.'/maisnoticias6.php') ?>
 
 	  </div>
 </div>
-<div class="row blue-grey lighten-3">
+<div class="row blue-grey lighten-3 semmargem">
+	<div class="row blue-grey lighten-1">
+		<div class="container">
+			<h4 class="white-text"><i class="material-icons">star</i> Coluna Social</h4>
+		</div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
 </div>

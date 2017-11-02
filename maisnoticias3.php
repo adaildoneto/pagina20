@@ -1,5 +1,5 @@
 
-  <div class="card">
+
   <?php
   $args = array (
   'pagination'             => true,
@@ -16,9 +16,7 @@ $query = new WP_Query( $args );
 while( $query->have_posts() ) {
 
    $query->the_post();
-
-
-      echo '<div class="white">';
+      echo '<div class="blue-grey-text darken-5-text">';
     	get_template_part( 'content', 'home5' );
       echo '</div>';
 
@@ -27,4 +25,3 @@ while( $query->have_posts() ) {
 
 }
 ?>
-</div>
