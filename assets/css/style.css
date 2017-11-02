@@ -577,12 +577,6 @@ a.button-collapse{
   height: 340px !important;
 }
 
-
-#slider a  {
-  font-size: 1.9rem !important;
-  line-height: 1.8rem !important;
-}
-
 .small .author .vcards a {
   font-size: 0.5rem !important;
   line-height: 0s.4rem !important;
@@ -715,7 +709,24 @@ a.button-collapse{
 }
 .bloco-des-noticias2{
   position: absolute;
-  top: 65%;
+  padding: 50px 220px 30px 60px;
+  bottom: 0;
+}
+#slider a{
+font-size: 2.1rem !important;
+line-height: 2.1rem !important;
+}
+.bloco-des-noticias2 > div{
+  padding: 0 !important;
+}
+@media (max-width: 480px) {
+.bloco-des-noticias2 {
+    padding: 8%;
+}
+#slider a{
+font-size: 1.6rem !important;
+line-height: 1.6rem !important;
+}
 }
 .bloco-des-noticias4 a{
   font-size: 1.8em;
