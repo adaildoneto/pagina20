@@ -1,7 +1,7 @@
 jQuery(window).load(function() {
  var container = document.querySelector('#grid');
  var msnry = new Masonry( container, {
-
+   percentPosition: true,
    itemSelector: '#item',
    columnWidth: '.grid-sizer',
    columnHeight: '.bloco-img-noticias2'
