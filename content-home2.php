@@ -10,11 +10,9 @@
 ?>
 
 
-<div class="grid-item col s12 m12 l6">
+<div id="item" class="col s12 m12 l6">
 	<div class="">
 	      <div class="card painel-noticias" >
-
-
 
 	          <a href="<?php the_Permalink()?>" title="<?php the_title();?>">
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'destaque1' ); ?>

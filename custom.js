@@ -2,7 +2,7 @@ jQuery(window).load(function() {
  var container = document.querySelector('#grid');
  var msnry = new Masonry( container, {
 
-   itemSelector: '.grid-item',
+   itemSelector: '#item',
    columnWidth: '.grid-sizer',
    columnHeight: '.bloco-img-noticias2'
  });

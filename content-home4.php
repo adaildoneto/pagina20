@@ -9,7 +9,7 @@
  */
 ?>
 
-<div class="grid-item col s12 m6 l3">
+<div id="item" class="col s12 m6 l3">
 	<div class="">
 		<div class="painel-noticias2 card">
 

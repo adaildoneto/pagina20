@@ -45,7 +45,7 @@ get_header(); ?>
 
 		      $query->the_post();
 
-				 if  (  in_category( '4' ) ) {  // post Destaque
+				 if  ( in_category( '4' ) ) {  // Destaque Retangular
 
 
 						get_template_part( 'content', 'home2' );
@@ -53,7 +53,7 @@ get_header(); ?>
 				}
 
 
-				else if (  in_category( '5' ) ) {  // Destaque Foto
+				else if (  in_category( '5' ) ) {  // Destaque GRande
 
 
 						 get_template_part( 'content', 'home3' );
