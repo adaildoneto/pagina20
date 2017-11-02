@@ -45,7 +45,7 @@ get_header(); ?>
 
 		      $query->the_post();
 
-				 if  ( in_category( '4' ) ) {  // Destaque Retangular
+				 if  ( in_category( '23' ) ) {  // Destaque Retangular
 
 
 						get_template_part( 'content', 'home2' );
@@ -53,14 +53,14 @@ get_header(); ?>
 				}
 
 
-				else if (  in_category( '5' ) ) {  // Destaque GRande
+				else if (  in_category( '64' ) ) {  // Destaque GRande
 
 
 						 get_template_part( 'content', 'home3' );
 
 					 }
 
-				else if (  in_category( '6' ) ) {  // destaque foto
+				else if (  in_category( '22' ) ) {  // destaque foto
 
 		 						 get_template_part( 'content', 'home4' );
 
@@ -78,35 +78,14 @@ get_header(); ?>
 </div><!-- #content -->
 
 </div>
-<div id="dabs" class="row blue-grey darken-4 semmargem">
-	<div class="row">
-	    <div class="col s12 ">
-	      <ul id="tabs" class="tabs tabs-transparent">
-	        <li class="tab col s3"><a href="#test1">Test 1</a></li>
-	        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-	        <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
-	        <li class="tab col s3"><a href="#test4">Test 4</a></li>
-	      </ul>
-	    </div>
-	    <div id="test1" class="container">
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias3.php') ?></div>
-</div>
-	    <div id="test2" class="container">
-				<?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
-</div>
-	    <div id="test3" class="container">
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-					<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias3.php') ?></div>
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-</div>
-	    <div id="test4" class="container">
-				<?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
-</div>
+<div class="row blue-grey darken-2">
+	<div class="row blue-grey darken-4"> </div>
+	<div class="container">
+				<?php include (TEMPLATEPATH.'/maisnoticias6.php') ?>
+
 	  </div>
 </div>
-<div class="row blue-grey lighten-3 semmargem">
+<div class="row blue-grey lighten-3">
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
 </div>
