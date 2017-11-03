@@ -351,8 +351,10 @@ a.button-collapse{
 }
 .titulopeuqeno {
   font-size: 20px;
-  line-height: 15px;
+  line-height: 22px;
   font-family: Cairo;
+  padding: 16px 40px 10px 90px;
+  display: block;
 }
 
 @media (min-width: 1024px){
