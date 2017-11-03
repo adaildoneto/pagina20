@@ -8,7 +8,7 @@
     <div class="categoria nocanto1">
 
     </div>
-    <div class="bloco-des-noticias2">
+    <div class="bloco-titulo-slider">
         <div class="card-content">
             <a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="white-text destaque-fonte">
               <?php

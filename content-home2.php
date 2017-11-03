@@ -26,7 +26,7 @@
 	              <span class="destaque-chamada">
 	                    <?php echo get_post_meta( $post->ID,'chamada', true )?>
 	                </span>
-	              <a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="destaque-titulo blue-text darken-3">
+	              <a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="destaque-titulo blue-text text-darken-2">
 	                <?php
 	                $tituloPost = get_the_title();
 	                $tituloCapa = get_post_meta( $post->ID,'titulo-capa', true );
