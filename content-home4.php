@@ -32,7 +32,9 @@
 									}else{
 										$titulo = $tituloCapa;
 									}
+
 									echo $titulo;
+
 									?>
 								</a>
 						</div>
