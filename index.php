@@ -81,9 +81,9 @@ get_header(); ?>
 <div class="row blue-grey darken-2 semmargem">
 	<div class="row blue-grey darken-4">
 		<div class="container">
-			<h4 class="white-text semmargem" style="padding-top:10px;"><i class="material-icons">video_library</i> Videos</h4>
+			<h3 class="white-text semmargem" style="padding-top:10px;"><i class="material-icons">video_library</i> Videos</h3>
 		</div> </div>
-	<div class="container">
+	<div class="container" style="margin-bottom:100px">
 				<?php include (TEMPLATEPATH.'/maisnoticias6.php') ?>
 
 	  </div>
@@ -92,7 +92,7 @@ get_header(); ?>
 <div class="row blue-grey lighten-3 semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h4 class="white-text semmargem"><i class="material-icons">star</i> Coluna Social</h4>
+			<h5 class="white-text semmargem"><i class="material-icons">star</i> Coluna Social</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
@@ -102,11 +102,36 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h4 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Política</h4>
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Política</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
 </div>
+</div>
+
+<div class="row  semmargem" style="padding-top:10px;">
+	<div class="container">
+		<div class="col s12 m4 l4">
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Polícia</h5>
+		<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+</div>
+
+<div class="col s12 m4 l4">
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Governo</h5>
+<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+</div>
+
+<div class="col s12 m4 l4">
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Geral</h5>
+<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+</div>
+	</div>
+
+
+
 </div>
 <?php
 

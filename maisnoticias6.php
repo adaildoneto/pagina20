@@ -3,7 +3,7 @@
   <?php
   $args = array (
   'pagination'             => true,
-  'posts_per_page'         => '6',
+  'posts_per_page'         => '5',
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
@@ -27,9 +27,9 @@ while( $query->have_posts() ) {
 
    } else {
 
-      echo '<div class="col s12 m12 l4"><div class="white-text">';
+      echo '<div class="white-text">';
     	get_template_part( 'content', 'home5' );
-      echo '</div></div>';
+      echo '</div>';
 
    }
 
