@@ -27,7 +27,7 @@ while( $query->have_posts() ) {
 
    } else {
 
-      echo '<div class="white-text">';
+      echo '<div class=\'mais-videos\'>';
     	get_template_part( 'content', 'home5' );
       echo '</div>';
 

@@ -16,7 +16,7 @@ $query = new WP_Query( $args );
 while( $query->have_posts() ) {
 
    $query->the_post();
-      echo '<div class="blue-grey-text darken-5-text">';
+      echo '<div class=\'noticias-capa\'>';
     	get_template_part( 'content', 'home5' );
       echo '</div>';
 

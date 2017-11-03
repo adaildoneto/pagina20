@@ -29,8 +29,6 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
   color: #FFFfff;
 }
 
-
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -817,7 +815,13 @@ line-height: 1.6rem !important;
     border-bottom: 5px solid #689f38 ;
 }
 
+.noticias-capa a{
+  color: #1565C0 !important;
+}
 
+.mais-videos a{
+  color: #FFFFFF !important;
+}
 
 /* FIM css Módulo Notícias */
 
@@ -1425,6 +1429,5 @@ body.login {
     line-height:48px;
     font-size:30px;
 }
-
 
 /* Aspas via shortcodes */
