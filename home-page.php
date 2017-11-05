@@ -45,7 +45,7 @@ get_header(); ?>
 
 		      $query->the_post();
 
-				 if  (  in_category( '4' ) ) {  // post Destaque
+				 if  ( in_category( '23' ) ) {  // Destaque Retangular
 
 
 						get_template_part( 'content', 'home2' );
@@ -53,14 +53,14 @@ get_header(); ?>
 				}
 
 
-				else if (  in_category( '5' ) ) {  // Destaque Foto
+				else if (  in_category( '64' ) ) {  // Destaque GRande
 
 
 						 get_template_part( 'content', 'home3' );
 
 					 }
 
-				else if (  in_category( '6' ) ) {  // destaque foto
+				else if (  in_category( '22' ) ) {  // destaque foto
 
 		 						 get_template_part( 'content', 'home4' );
 
@@ -78,38 +78,60 @@ get_header(); ?>
 </div><!-- #content -->
 
 </div>
-<div id="dabs" class="row blue-grey darken-4 semmargem">
-	<div class="row">
-	    <div class="col s12 ">
-	      <ul id="tabs" class="tabs tabs-transparent">
-	        <li class="tab col s3"><a href="#test1">Test 1</a></li>
-	        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-	        <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
-	        <li class="tab col s3"><a href="#test4">Test 4</a></li>
-	      </ul>
-	    </div>
-	    <div id="test1" class="container">
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias3.php') ?></div>
-</div>
-	    <div id="test2" class="container">
-				<?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
-</div>
-	    <div id="test3" class="container">
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-					<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias3.php') ?></div>
-				<div class="col s12 m4 l4"><?php include (TEMPLATEPATH.'/maisnoticias.php') ?></div>
-</div>
-	    <div id="test4" class="container">
-				<?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
-</div>
+<div class="row blue-grey darken-2 semmargem">
+	<div class="row blue-grey darken-4">
+		<div class="container">
+			<h3 class="white-text semmargem" style="padding-top:10px;"><i class="material-icons">video_library</i> Videos</h3>
+		</div> </div>
+	<div class="container" style="margin-bottom:100px">
+				<?php include (TEMPLATEPATH.'/maisnoticias6.php') ?>
+
 	  </div>
 </div>
-<div class="row blue-grey lighten-3 semmargem">
+
+<div class="row blue-grey lighten-3 semmargem" style="padding-top:10px;">
+	<div class="row">
+		<div class="container">
+			<h5 class="white-text semmargem"><i class="material-icons">star</i> Coluna Social</h5>
+		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
 </div>
+</div>
+
+<div class="row  semmargem" style="padding-top:10px;">
+	<div class="row">
+		<div class="container">
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Política</h5>
+		<hr class="blue-gray lighten-1"></hr></div> </div>
+	<div class="container">
+<?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
+</div>
+</div>
+
+<div class="row  semmargem" style="padding-top:10px;">
+	<div class="container">
+		<div class="col s12 m4 l4">
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Polícia</h5>
+		<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+</div>
+
+<div class="col s12 m4 l4">
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Governo</h5>
+<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+</div>
+
+<div class="col s12 m4 l4">
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Geral</h5>
+<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+</div>
+	</div>
+
+
+
 </div>
 <?php
 

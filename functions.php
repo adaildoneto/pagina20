@@ -67,8 +67,7 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
 			)
 		);
 
-		/*
-		 * Add post_thumbnails suport.
+		 /* Add post_thumbnails suport.
 		 */
 		add_theme_support( 'post-thumbnails' );
 
