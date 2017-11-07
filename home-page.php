@@ -114,19 +114,19 @@ get_header(); ?>
 		<div class="col s12 m4 l4">
 			<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Polícia</h5>
 		<hr class="blue-gray lighten-1"></hr>
-<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+<?php include (TEMPLATEPATH.'/maisnoticias-policia.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Governo</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Cidade</h5>
 <hr class="blue-gray lighten-1"></hr>
-<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+<?php include (TEMPLATEPATH.'/maisnoticias-cidade.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
 	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Geral</h5>
 <hr class="blue-gray lighten-1"></hr>
-<?php include (TEMPLATEPATH.'/maisnoticias3.php') ?>
+<?php include (TEMPLATEPATH.'/maisnoticias-geral.php') ?>
 </div>
 	</div>
 
