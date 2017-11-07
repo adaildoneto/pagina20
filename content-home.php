@@ -19,8 +19,8 @@
 
 			</div></a>
 			<div class="categoria nocanto1">
-				<span class="data-post"> <?php the_time('d.m.Y');?> </span>
-                    <span class="hora-post"> <?php the_time('G:i');?></span>
+				<span class="white-text data-post"> <?php the_time('d.m.Y');?> </span>
+        <br><span class="white-text hora-post"> <?php the_time('G:i');?></span>
 
 			</div>
 			<div class="bloco-des-noticias3">

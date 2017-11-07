@@ -1021,7 +1021,9 @@ line-height: 1.6rem !important;
 
 .hora-post
 {
-    font-size: 13pt;
+    font-size: 10pt;
+    font-family: roboto;
+    font-weight: 400;
 }
 
 .hora-post:before
