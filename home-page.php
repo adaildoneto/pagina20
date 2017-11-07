@@ -33,6 +33,7 @@ get_header(); ?>
 			$args = array (
 			  'pagination'             => true,
 			  'paged'                  => $paged,
+				'cat'										 => array ('-4,-8,-9,-169,-82,-6,-64'),
 			  'posts_per_page'         => '14',
 			  'ignore_sticky_posts'    => true,
 
@@ -53,7 +54,7 @@ get_header(); ?>
 				}
 
 
-				else if (  in_category( '64' ) ) {  // Destaque GRande
+				else if (  in_category( '5' ) ) {  // Destaque GRande
 
 
 						 get_template_part( 'content', 'home3' );
@@ -92,7 +93,7 @@ get_header(); ?>
 <div class="row blue-grey lighten-3 semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="white-text semmargem"><span class="icon-galo"></span> Coluna Social</h5>
+			<h5 class="white-text semmargem"><i class="icon-galo"></i> Colunas</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
@@ -102,7 +103,7 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Política</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Política</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
@@ -112,19 +113,19 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="container">
 		<div class="col s12 m4 l4">
-			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Polícia</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Polícia</h5>
 		<hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-policia.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Cidade</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Cidade</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-cidade.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Geral</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Geral</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-geral.php') ?>
 </div>
@@ -134,7 +135,7 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Artigos</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Artigos</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias5-artigos.php') ?>
@@ -144,19 +145,19 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="container">
 		<div class="col s12 m4 l4">
-			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Cultura</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Cultura</h5>
 		<hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-cultura.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Esporte</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Esporte</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-esportes.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Ciência e Saúde </h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><i class="icon-galo"></i> Ciência e Saúde </h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-ciencia.php') ?>
 </div>
