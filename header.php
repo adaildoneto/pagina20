@@ -49,15 +49,8 @@
 	        <li><a href="collapsible.html">JavaScript</a></li>
 	      </ul>
 	    </div>
-	    <div class="nav-content container">
-	      <ul class="tabs tabs-transparent">
-	        <li class="tab"><a href="">Test 1</a></li>
-	        <li class="tab"><a class="active" href="">Test 2</a></li>
-	        <li class="tab disabled"><a href="">Disabled Tab</a></li>
-	        <li class="tab"><a href="">Test 4</a></li>
-	      </ul>
-	    </div>
-	  </nav>
+			<?php wp_nav_menu(array('menu' => 'Main Menu', 'container' => 'div', 'container_class' => 'container','menu_class' => 'side-nav')); ?>
+	    </nav>
 		<div class="container" style="display:none;">
 	  <div id="" class="col s12">Test 1</div>
 	  <div id="" class="col s12">Test 2</div>
