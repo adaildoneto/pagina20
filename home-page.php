@@ -92,7 +92,7 @@ get_header(); ?>
 <div class="row blue-grey lighten-3 semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="white-text semmargem"><i class="material-icons">star</i> Coluna Social</h5>
+			<h5 class="white-text semmargem"><span class="icon-galo"></span> Coluna Social</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
@@ -102,7 +102,7 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Política</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Política</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
@@ -112,26 +112,55 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="container">
 		<div class="col s12 m4 l4">
-			<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Polícia</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Polícia</h5>
 		<hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-policia.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Cidade</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Cidade</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-cidade.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><i class="material-icons">star</i> Geral</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Geral</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-geral.php') ?>
 </div>
 	</div>
+</div>
 
+<div class="row  semmargem" style="padding-top:10px;">
+	<div class="row">
+		<div class="container">
+			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Artigos</h5>
+		<hr class="blue-gray lighten-1"></hr></div> </div>
+	<div class="container">
+<?php include (TEMPLATEPATH.'/maisnoticias5-artigos.php') ?>
+</div>
+</div>
 
+<div class="row  semmargem" style="padding-top:10px;">
+	<div class="container">
+		<div class="col s12 m4 l4">
+			<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Cultura</h5>
+		<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias-cultura.php') ?>
+</div>
 
+<div class="col s12 m4 l4">
+	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Esporte</h5>
+<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias-esportes.php') ?>
+</div>
+
+<div class="col s12 m4 l4">
+	<h5 class="blue-grey-text darken-2-text semmargem"><span class="icon-galo"></span> Ciência e Saúde </h5>
+<hr class="blue-gray lighten-1"></hr>
+<?php include (TEMPLATEPATH.'/maisnoticias-ciencia.php') ?>
+</div>
+	</div>
 </div>
 <?php
 

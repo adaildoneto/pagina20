@@ -2,8 +2,8 @@
   <?php
   $args = array (
   'pagination'             => true,
-  'posts_per_page'         => '3',
-  'cat'                    => array ('8,9,169'),
+  'posts_per_page'         => '7',
+  'cat'                    => array ('8,9,169,82,6'),
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
