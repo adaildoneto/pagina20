@@ -26,7 +26,9 @@ get_header(); ?>
 <div class="row" style="display:block;">
 
 	<div id="content" tabindex="-1" role="main" class="container">
-
+		<div id="item" class="col s12 m6 l3">
+				<?php if ( dynamic_sidebar('publicidade300x300') ) : else : endif; ?>
+		</div>
 		<div id="grid">
 
 			<?php

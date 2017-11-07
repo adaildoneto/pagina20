@@ -28,7 +28,7 @@ get_header(); ?>
 	<div id="content" tabindex="-1" role="main" class="container">
 
 		<div id="grid">
-
+					<?php if ( dynamic_sidebar('publicidade300x300') ) : else : endif; ?>
 			<?php
 			$args = array (
 			  'pagination'             => true,

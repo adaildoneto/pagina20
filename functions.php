@@ -200,6 +200,22 @@ function odin_widgets_init() {
 add_action( 'widgets_init', 'odin_widgets_init' );
 
 /**
+ * Criando uma area de widgets
+ *
+ */
+function publicidade300x300_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'publicidade300x300',
+		'id' => 'publicidade300x300s',
+		'before_widget' => '<div id="item" class="col s12 m6 l3"><div class="painel-noticias2 card"><span>Publicidade</span>',
+		'after_widget' => '</div></div>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'publicidade300x300_widgets_init' );
+/**
  * Flush Rewrite Rules for new CPTs and Taxonomies.
  *
  * @since 2.2.0
