@@ -26,7 +26,7 @@
 												 }?>
 
 						</div>
-						<div class="categoria nocanto2">
+						<div class="categoria nocanto3">
 							<span class="white-text data-post"> <?php the_time('d.m.Y');?> </span>
 			        <br><span class="white-text hora-post"> <?php the_time('G:i');?></span>
 
