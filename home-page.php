@@ -93,7 +93,7 @@ get_header(); ?>
 <div class="row blue-grey lighten-3 semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="white-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Colunas</h5>
+			<h5 class="white-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Colunas</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
@@ -103,7 +103,7 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Política</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Política</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias5.php') ?>
@@ -113,19 +113,19 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="container">
 		<div class="col s12 m4 l4">
-			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Polícia</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Polícia</h5>
 		<hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-policia.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Cidade</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Cidade</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-cidade.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Geral</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Geral</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-geral.php') ?>
 </div>
@@ -135,7 +135,7 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="row">
 		<div class="container">
-			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Artigos</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Artigos</h5>
 		<hr class="blue-gray lighten-1"></hr></div> </div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias5-artigos.php') ?>
@@ -145,19 +145,19 @@ get_header(); ?>
 <div class="row  semmargem" style="padding-top:10px;">
 	<div class="container">
 		<div class="col s12 m4 l4">
-			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Cultura</h5>
+			<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Cultura</h5>
 		<hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-cultura.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Esporte</h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Esporte</h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-esportes.php') ?>
 </div>
 
 <div class="col s12 m4 l4">
-	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4 disabled"><i class="icon-galo"></i></a> Ciência e Saúde </h5>
+	<h5 class="blue-grey-text darken-2-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Ciência e Saúde </h5>
 <hr class="blue-gray lighten-1"></hr>
 <?php include (TEMPLATEPATH.'/maisnoticias-ciencia.php') ?>
 </div>
