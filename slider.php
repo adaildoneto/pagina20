@@ -8,7 +8,7 @@
 </div>
 
 
-<div class="col s12 m5 l4">
+<div class="col s12 m5 l4 right">
 	<div id="slider-destaque">
 
 	<div class="card" style="height:600px">
@@ -27,7 +27,7 @@ wp_reset_query();?>
 
 <div  class="col s12 m7 l8 left">
 
-	<div class="card red" style="height:180px"><h3>publicidade</h3>
+	<div class="card blue darken-4" style="height:180px"><h5 class="white-text brand-logo">Publicidade</h3>
 
 	</div>
 
