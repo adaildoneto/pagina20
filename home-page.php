@@ -26,9 +26,8 @@ get_header(); ?>
 <div class="row" style="display:block;">
 
 	<div id="content" tabindex="-1" role="main" class="container">
-				<?php if ( dynamic_sidebar('publicidade300x300') ) : else : endif; ?>
 		<div id="grid">
-
+			<?php if ( dynamic_sidebar('publicidade300x300') ) : else : endif; ?>
 			<?php
 			$args = array (
 			  'pagination'             => true,
