@@ -25,7 +25,7 @@ wp_reset_query();?>
 
 </div>
 
-<div  class="col s12 m7 l8">
+<div  class="col s12 m7 l8 left">
 
 	<div class="card red" style="height:180px"><h3>publicidade</h3>
 
