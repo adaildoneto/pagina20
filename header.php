@@ -37,7 +37,7 @@
 		<nav class="nav-extended blue darken-3">
 	    <div class="nav-wrapper container">
 	      <a href="<?php $url = home_url(); echo esc_url( $url ); ?>" class="brand-logo"><span class="icon-galo"></span>Página 20</a>
-	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      <ul id="nav-mobile" class="right hide-on-med-and-down">
 	        <li><a href="sass.html">Sass</a></li>
 	        <li><a href="badges.html">Components</a></li>
@@ -47,7 +47,7 @@
 	        <li><a href="sass.html">Sass</a></li>
 	        <li><a href="badges.html">Components</a></li>
 	        <li><a href="collapsible.html">JavaScript</a></li>
-	      </ul>
+	      </ul> -->
 	    </div>
 			<?php wp_nav_menu(array('menu' => 'Main Menu', 'container' => 'div', 'container_class' => 'container','menu_class' => 'side-nav')); ?>
 	    </nav>
