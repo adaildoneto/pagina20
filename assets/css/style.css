@@ -720,7 +720,7 @@ a.button-collapse{
 }
 .bloco-des-noticias2{
   position: absolute;
-  padding: 50px 220px 30px 60px;
+  padding: 0px 25px 30px 30px;
   bottom: 0;
 }
 #slider a{
@@ -751,7 +751,7 @@ line-height: 1.6rem !important;
 }
 
 .bloco-des-noticias2 a{
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: bold;
   display: block;
   line-height: 1.2em;
