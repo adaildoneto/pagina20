@@ -3,6 +3,7 @@
   $args = array (
   'pagination'             => true,
   'posts_per_page'         => '7',
+  'cat'                    => array ('8,9,169,82,6'),
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
@@ -21,12 +22,6 @@ while( $query->have_posts() ) {
      echo '<div class="first-post">';
      get_template_part( 'content', 'home3' );
      echo '</div>';
-
-   } elseif ( $query->current_post < 2) {
-
-      echo '<div>';
-    	get_template_part( 'content', 'home' );
-      echo '</div>';
 
    } else {
 

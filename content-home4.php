@@ -18,7 +18,16 @@
 				<div class="bloco-img-noticias2 especiais-img img-slider efeito" style="background: url('<?php echo $image[0]; ?>');">
 
 				</div>  </a>
-				<div class="categoria nocanto1">
+				<div class="nocanto1">
+					<?php $categories = get_the_category();
+								 if ( ! empty( $categories ) ) {
+										 echo '<a class="chip blue darken-4 white-text" href="'. esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+										 }?>
+
+				</div>
+				<div class="categoria nocanto2">
+					<span class="white-text data-post"> <?php the_time('d.m.Y');?> </span>
+					<br><span class="white-text hora-post"> <?php the_time('G:i');?></span>
 
 				</div>
 				<div class="bloco-des-noticias2">

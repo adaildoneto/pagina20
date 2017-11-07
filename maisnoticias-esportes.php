@@ -1,9 +1,10 @@
 
+
   <?php
   $args = array (
   'pagination'             => true,
   'posts_per_page'         => '4',
-  'cat'                    => 22,
+  'cat'                    => 21,
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
@@ -16,14 +17,10 @@ $query = new WP_Query( $args );
 while( $query->have_posts() ) {
 
    $query->the_post();
-
-   {
-
-      echo '<div>';
-    	get_template_part( 'content', 'home4' );
+      echo '<div class=\'noticias-capa\'>';
+    	get_template_part( 'content', 'home5' );
       echo '</div>';
 
-   }
 
    wp_reset_postdata();
 
