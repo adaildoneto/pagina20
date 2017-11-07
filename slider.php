@@ -17,6 +17,14 @@
 	<div style="height:600px"> <?php include (TEMPLATEPATH.'/maisnoticias-destaques.php'); ?></div>
 </div>
 
+
+
+
+<?php
+wp_reset_query();?>
+
+</div>
+
 <div  class="col s12 m7 l8">
 
 	<div class="card red" style="height:180px"><h3>publicidade</h3>
@@ -25,11 +33,6 @@
 
 </div>
 
-
-<?php
-wp_reset_query();?>
-
-</div>
 </div>
 </div>
 </div>
