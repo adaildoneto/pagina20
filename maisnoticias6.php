@@ -1,5 +1,5 @@
 
-    <?php ( dynamic_sidebar('videodestaque'); ?>
+    <?php dynamic_sidebar('videodestaque'); ?>
 
   <?php
   $args = array (
