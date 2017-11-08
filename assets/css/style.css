@@ -663,6 +663,13 @@ a.button-collapse{
     color: #c4c4c4;
 }
 
+.wdtitle {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 2px;
+    color: #c4c4c4;
+}
+
 .especiais-img{
   background-position: 50% !important;
   background-repeat: no-repeat !important;

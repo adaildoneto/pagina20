@@ -221,6 +221,8 @@ function capa20_widgets_init() {
 		'id' => 'capa20',
 		'before_widget' => '<div class="card">',
 		'after_widget' => '</div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
 			) );
 }
 add_action( 'widgets_init', 'capa20_widgets_init' );
