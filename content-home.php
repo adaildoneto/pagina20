@@ -31,9 +31,7 @@
 
 			</div>
 			<div class="bloco-des-noticias3">
-					<span class="destaque-chamada">
-							<?php echo get_post_meta( $post->ID,'chamada', true )?>
-					</span>
+
 					<a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="destaque-fonte blue-text text-darken-2">
 							<?php
 							$tituloPost = get_the_title();
