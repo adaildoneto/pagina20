@@ -11,9 +11,8 @@
 <div class="col s12 m5 l4 right hide-on-med-and-down">
 	<div id="slider-destaque">
 
-	<div class="card" style="height:600px">
-		<img src="http://pagina20.net/v2/wp-content/uploads/2017/11/capa217.jpg" class="responsive-img" alt="">
-		</div>
+	<?php dynamic_sidebar( 'capa20' ); ?>
+
 	<div style="height:600px"> <?php include (TEMPLATEPATH.'/maisnoticias-destaques.php'); ?></div>
 </div>
 
