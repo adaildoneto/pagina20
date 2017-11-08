@@ -49,7 +49,7 @@
 	        <li><a href="collapsible.html">JavaScript</a></li>
 	      </ul> -->
 	    </div>
-			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Main Menu', 'container' => 'div', 'container_class' => 'container','menu_class' => 'left')); ?>
+			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Main Menu', 'container' => 'ul', 'container_class' => 'nav','menu_class' => 'left')); ?>
 	    </nav>
 		<div class="container" style="display:none;">
 	  <div id="" class="col s12">Test 1</div>
