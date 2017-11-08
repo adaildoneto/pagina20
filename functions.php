@@ -226,6 +226,19 @@ function capa20_widgets_init() {
 			) );
 }
 add_action( 'widgets_init', 'capa20_widgets_init' );
+
+function banner_slider_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Banner abaixo do slider',
+		'id' => 'banner_slider',
+		'before_widget' => '<div class="card">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+			) );
+}
+add_action( 'widgets_init', 'banner_slider_widgets_init' );
 /**
  * Flush Rewrite Rules for new CPTs and Taxonomies.
  *

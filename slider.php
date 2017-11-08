@@ -26,10 +26,7 @@ wp_reset_query();?>
 
 <div  class="col s12 m7 l8 left hide-on-med-and-down">
 
-	<div class="card blue darken-4">
-		<img src="http://pagina20.net/v2/wp-content/uploads/2017/11/960x100_basa_novo.jpg" class="responsive-img" alt="">
-
-	</div>
+	<?php dynamic_sidebar( 'banner_slider' ); ?>
 
 </div>
 
