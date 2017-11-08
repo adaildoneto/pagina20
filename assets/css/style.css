@@ -1066,24 +1066,20 @@ line-height: 1.6rem !important;
     font-variant: small-caps;
 }
 
-.post
-{
-
-
-@media (max-width:479px)
-{
-    .post
-    {
-
-    }
+.entry-content p{
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+  font-weight: 300;
+  color: #484848 !important;
+  letter-spacing: -0.3px;
+  overflow-wrap: break-word;
+  line-height: 2.0rem;
 }
 
 .icons-menu
 {
     margin-bottom: 20px;
 }
-
-
 
 /* Imagens responsivas dentro do Post */
 
