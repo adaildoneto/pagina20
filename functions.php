@@ -60,12 +60,22 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
 
 		/**
 		 * Register nav menus.
-		 */
-		register_nav_menus(
-			array(
-				'menu-pagina20' => __( 'Menu Pagina20', 'odin' )
-			)
-		);
+		*/
+
+		// register_nav_menus(
+		//	array(
+		//		'menu-pagina20' => __( 'Menu Pagina20', 'odin' )
+		//	)
+		// );*/
+
+		function register_my_menus() {
+  register_nav_menus(
+    array(
+      'menu-pagina20' => __( 'Menu Página 20' ),
+          )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 
 		 /* Add post_thumbnails suport.
 		 */
