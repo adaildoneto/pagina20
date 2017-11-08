@@ -249,6 +249,19 @@ function banner_slider_widgets_init() {
 			) );
 }
 add_action( 'widgets_init', 'banner_slider_widgets_init' );
+
+function footer_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Widgets do Footer',
+		'id' => 'wdfooter',
+		'before_widget' => '<div class="col s12 m6 l4">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+			) );
+}
+add_action( 'widgets_init', 'footer_widgets_init' );
 /**
  * Flush Rewrite Rules for new CPTs and Taxonomies.
  *
