@@ -53,7 +53,7 @@ get_header(); ?>
 				}
 
 
-				else if (  in_category( '5' ) ) {  // Destaque GRande
+				else if (  in_category( '64' ) ) {  // Destaque GRande
 
 
 						 get_template_part( 'content', 'home3' );
