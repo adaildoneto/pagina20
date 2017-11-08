@@ -1,6 +1,5 @@
 
-
-    <?php ( dynamic_sidebar('wdfooter'); ?>
+    <?php ( dynamic_sidebar('videodestaque'); ?>
 
   <?php
   $args = array (
