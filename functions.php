@@ -381,7 +381,7 @@ require_once get_template_directory() . '/core/helpers.php';
 /**
  * WP Custom Admin.
  */
-// require_once get_template_directory() . '/inc/admin.php';
+require_once get_template_directory() . '/inc/admin.php';
 
 /**
  * Comments loop.
