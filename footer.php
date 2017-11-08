@@ -15,7 +15,7 @@
 	<footer class="page-footer blue darken-4">
           <div class="container">
             <div class="row">
-            
+            <?php if ( dynamic_sidebar('wdfooter') ) : else : endif; ?>
             </div>
           </div>
           <div class="footer-copyright">

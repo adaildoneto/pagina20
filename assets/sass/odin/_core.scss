@@ -2,7 +2,7 @@
 -------------------------------------------------------------- */
 
 /* Fix pagination */
-ul.page-numbers {
+ul.pagination {
 	@extend .pagination;
 
 	> li > span.current {

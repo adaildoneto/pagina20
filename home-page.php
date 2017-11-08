@@ -32,7 +32,7 @@ get_header(); ?>
 			$args = array (
 			  'pagination'             => true,
 			  'paged'                  => $paged,
-				'cat'										 => array ('-4,-8,-9,-169,-82,-6,-64'),
+				'cat'										 => array ('-4,-8,-9,-169,-82,-6'),
 			  'posts_per_page'         => '14',
 			  'ignore_sticky_posts'    => true,
 
@@ -53,7 +53,7 @@ get_header(); ?>
 				}
 
 
-				else if (  in_category( '5' ) ) {  // Destaque GRande
+				else if (  in_category( '2240' ) ) {  // Destaque GRande
 
 
 						 get_template_part( 'content', 'home3' );

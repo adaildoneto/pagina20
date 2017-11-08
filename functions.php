@@ -60,12 +60,22 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
 
 		/**
 		 * Register nav menus.
-		 */
-		register_nav_menus(
-			array(
-				'main-menu' => __( 'Main Menu', 'odin' )
-			)
-		);
+		*/
+
+		// register_nav_menus(
+		//	array(
+		//		'menu-pagina20' => __( 'Menu Pagina20', 'odin' )
+		//	)
+		// );*/
+
+		function register_my_menus() {
+  register_nav_menus(
+    array(
+      'menu-pagina20' => __( 'Menu Página 20' ),
+          )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 
 		 /* Add post_thumbnails suport.
 		 */
@@ -239,6 +249,32 @@ function banner_slider_widgets_init() {
 			) );
 }
 add_action( 'widgets_init', 'banner_slider_widgets_init' );
+
+function footer_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Widgets do Footer',
+		'id' => 'wdfooter',
+		'before_widget' => '<div class="col s12 m6 l4">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+			) );
+}
+add_action( 'widgets_init', 'footer_widgets_init' );
+
+function video_init() {
+
+	register_sidebar( array(
+		'name' => 'Video Destaque',
+		'id' => 'videodestaque',
+		'before_widget' => '<div class="col s12 m12 l8"><div class="video-container">',
+		'after_widget' => '</div></div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+			) );
+}
+add_action( 'widgets_init', 'video_init' );
 /**
  * Flush Rewrite Rules for new CPTs and Taxonomies.
  *

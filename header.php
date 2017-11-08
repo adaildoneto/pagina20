@@ -32,9 +32,9 @@
 
 
 	<header>
-		<div class="row">
+		<div class="row blue darken-3">
 
-		<nav class="nav-extended blue darken-3">
+		<nav class="nav-extended blue darken-4">
 	    <div class="nav-wrapper container">
 	      <a href="<?php $url = home_url(); echo esc_url( $url ); ?>" class="brand-logo"><span class="icon-galo"></span>Página 20</a>
 	      <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -49,7 +49,7 @@
 	        <li><a href="collapsible.html">JavaScript</a></li>
 	      </ul> -->
 	    </div>
-			<?php wp_nav_menu(array('menu' => 'main-menu', 'container' => 'div', 'container_class' => 'container','menu_class' => 'side-nav')); ?>
+			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4','menu_class' => 'left')); ?>
 	    </nav>
 		<div class="container" style="display:none;">
 	  <div id="" class="col s12">Test 1</div>
