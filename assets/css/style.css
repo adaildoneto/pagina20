@@ -1066,14 +1066,16 @@ line-height: 1.6rem !important;
     font-variant: small-caps;
 }
 
-.entry-content p{
-  font-size: 1.3rem;
-  padding-bottom: 15px;
-  font-weight: 300;
+.entry-content p span{
+  font-weight: normal !important;
+  font-family: 'Cairo', sans-serif !important;
+  font-size: 1.3rem !important;
+  padding-bottom: 15px !important;
+  font-weight: 300 !important;
   color: #484848 !important;
-  letter-spacing: -0.3px;
-  overflow-wrap: break-word;
-  line-height: 2.0rem;
+  letter-spacing: -0.3px !important;
+  overflow-wrap: break-word !important;
+  line-height: 2.0rem !important;
 }
 
 .icons-menu
