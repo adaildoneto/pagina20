@@ -60,6 +60,10 @@ h1{
  font-weight: bold !important;
 }
 
+img{
+
+}
+
 @media only screen and (min-width: 1349px) {
   .container {
     width: 1280px!important;
@@ -1072,6 +1076,11 @@ line-height: 1.6rem !important;
   letter-spacing: -0.3px !important;
   overflow-wrap: break-word !important;
   line-height: 2.0rem !important;
+}
+
+.entry-content img{
+  width: 100%;
+  height: auto;
 }
 
 .entry-meta{
