@@ -1,7 +1,3 @@
-
-
-
-
 /*
 Theme Name: Notícias do Acre - 2017
 Theme URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk"><span>http</span><span>://</span><span>www</span><span>.</span><span>agencia</span><span>.</span><span>ac</span><span>.</span><span>gov</span><span>.</span><span>br</span></a>
@@ -44,8 +40,6 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
  body{
       font-family: 'Cairo', sans-serif;
  }
@@ -57,15 +51,20 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
  .content
  {
      overflow: hidden;
-
  }
+
+h1{
+ font-size: 3.2rem !important;
+ line-height: 3.8rem !important;
+ margin: 0 0 1.3rem 0 !important;
+ font-weight: bold !important;
+}
 
 @media only screen and (min-width: 1349px) {
   .container {
     width: 1280px!important;
   }
 }
-
 
 .icon-block {
   padding: 0 15px;
@@ -118,8 +117,6 @@ line-height: 80px;
     margin: 0px!important;
 
 }
-
-
 
 .row {
     margin-bottom: 0px;
@@ -1075,6 +1072,10 @@ line-height: 1.6rem !important;
   letter-spacing: -0.3px !important;
   overflow-wrap: break-word !important;
   line-height: 2.0rem !important;
+}
+
+.entry-meta{
+  color: #999;
 }
 
 .icons-menu
