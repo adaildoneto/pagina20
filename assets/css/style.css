@@ -60,9 +60,16 @@ h1{
  font-weight: bold !important;
 }
 
-img{
-  width: 100%;
-  height: auto;
+@media (max-width:600px){
+  h1{
+    font-size: 2.1rem !important;
+    line-height: 2.3rem !important;
+  }
+}
+
+figure{
+  width: 100% !important;
+  margin: 0 !important;
 }
 
 @media only screen and (min-width: 1349px) {
