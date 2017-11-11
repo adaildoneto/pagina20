@@ -65,6 +65,7 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
   register_nav_menus(
     array(
       'menu-pagina20' => __( 'Menu Página 20' ),
+			  'menu-colunas' => __( 'Menu Colunas' ),
           )
   );
 }
