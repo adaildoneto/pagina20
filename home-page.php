@@ -94,7 +94,7 @@ get_header(); ?>
 		<div class="container">
 			<h5 class="white-text semmargem"><a class="btn-floating blue darken-4"><i class="icon-galo"></i></a> Colunas</h5>
 		<hr class="blue-gray lighten-1"></hr></div>
-<?php wp_nav_menu(array('theme_location' => 'menu-colunas','menu' => 'Menu Colunas', 'container' => 'div', 'container_class' => ' nav-wrapper','menu_class' => 'left')); ?>
+<?php wp_nav_menu(array('theme_location' => 'menu-colunas','menu' => 'Menu Colunas', 'container' => 'div', 'container_class' => 'container','menu_class' => 'pagination left')); ?>
 	</div>
 	<div class="container">
 <?php include (TEMPLATEPATH.'/maisnoticias2.php') ?>
