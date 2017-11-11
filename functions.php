@@ -14,13 +14,6 @@
  */
 
 /**
- * Sets content width.
- */
-if ( ! isset( $content_width ) ) {
-	$content_width = 600;
-}
-
-/**
  * Odin Classes.
  */
 require_once get_template_directory() . '/core/classes/class-bootstrap-nav.php';
@@ -218,7 +211,7 @@ function publicidade300x300_widgets_init() {
 	register_sidebar( array(
 		'name' => 'publicidade300x300',
 		'id' => 'publicidade300x300s',
-		'before_widget' => '<div id="item" class="col s12 m6 l3"><div class="painel-noticias2 card"><span>Publicidade</span>',
+		'before_widget' => '<div id="item" class="col s12 m6 l3"><div class="painel-noticias2 card"><span class="wdtitle">Publicidade</span>',
 		'after_widget' => '</div></div>',
 			) );
 }
@@ -262,6 +255,19 @@ function footer_widgets_init() {
 			) );
 }
 add_action( 'widgets_init', 'footer_widgets_init' );
+
+function video_init() {
+
+	register_sidebar( array(
+		'name' => 'Video Destaque',
+		'id' => 'videodestaque',
+		'before_widget' => '<div class="col s12 m12 l8"><div class="video-container">',
+		'after_widget' => '</div></div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+			) );
+}
+add_action( 'widgets_init', 'video_init' );
 /**
  * Flush Rewrite Rules for new CPTs and Taxonomies.
  *
