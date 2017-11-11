@@ -56,7 +56,7 @@ function odin_pagination( $mid = 2, $end = 1, $show = false, $query = null ) {
 				)
 			);
 
-			$pagination = '<div class="pagination-wrap pagination align-center">' . paginate_links( $arguments ) . '</div>';
+			$pagination = '<div class="pagination-wrap pagination center">' . paginate_links( $arguments ) . '</div>';
 
 			// Prevents duplicate bars in the middle of the url.
 			if ( $url_base ) {
