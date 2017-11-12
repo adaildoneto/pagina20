@@ -51,12 +51,12 @@ function odin_pagination( $mid = 2, $end = 1, $show = false, $query = null ) {
 					'mid_size'  => $mid,
 					'type'      => 'list',
 					'class'			=> 'pagination center',
-					'prev_text' => __( '&laquo; Previous', 'odin' ),
-					'next_text' => __( 'Next &raquo;', 'odin' ),
+					'prev_text' => __( '&laquo; Anterior', 'odin' ),
+					'next_text' => __( 'Próximo &raquo;', 'odin' ),
 				)
 			);
 
-			$pagination = '<div class="pagination-wrap">' . paginate_links( $arguments ) . '</div>';
+			$pagination = '<div class="pagination-wrap pagination center">' . paginate_links( $arguments ) . '</div>';
 
 			// Prevents duplicate bars in the middle of the url.
 			if ( $url_base ) {
