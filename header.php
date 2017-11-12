@@ -37,11 +37,11 @@
 		<nav class="nav-extended blue darken-4">
 	    <div class="nav-wrapper container">
 	      <a href="<?php $url = home_url(); echo esc_url( $url ); ?>" class="brand-logo"><span class="icon-galo"></span>Página 20</a>
-				<a href="#" data-activates="menu-pagina20" class="button-collapse left"><i class="material-icons hide-on-large-only">menu</i></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse left"><i class="material-icons hide-on-large-only">menu</i></a>
 	    </div>
-			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4 hide-on-med-and-down','menu_class' => 'left side-nav collapsible')); ?>
+			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4 hide-on-med-and-down','menu_class' => 'left')); ?>
 	    </nav>
-			<!--<ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
+			<ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
 					<li class="no-padding">
 							<ul class="collapsible collapsible-accordion">
 									<li class="bold"><a href="#" class="waves-effect waves-teal">Notícias</a></li>
@@ -52,7 +52,7 @@
 									<li class="bold"><a href="#" class="waves-effect waves-teal">Contato</a></li>
 								</ul>
 							</li>
-						</ul>-->
+						</ul>
 	</div>
 
 			</header><!-- #header -->
