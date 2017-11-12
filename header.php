@@ -37,28 +37,22 @@
 		<nav class="nav-extended blue darken-4">
 	    <div class="nav-wrapper container">
 	      <a href="<?php $url = home_url(); echo esc_url( $url ); ?>" class="brand-logo"><span class="icon-galo"></span>Página 20</a>
-	      <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li><a href="sass.html">Sass</a></li>
-	        <li><a href="badges.html">Components</a></li>
-	        <li><a href="collapsible.html">JavaScript</a></li>
-	      </ul>
-	      <ul class="side-nav" id="mobile-demo">
-	        <li><a href="sass.html">Sass</a></li>
-	        <li><a href="badges.html">Components</a></li>
-	        <li><a href="collapsible.html">JavaScript</a></li>
-	      </ul> -->
+				<a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only left"><i class="material-icons">menu</i></a>
 	    </div>
-			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4','menu_class' => 'left')); ?>
+			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4 hide-on-med-and-down','menu_class' => 'left')); ?>
 	    </nav>
-		<div class="container" style="display:none;">
-	  <div id="" class="col s12">Test 1</div>
-	  <div id="" class="col s12">Test 2</div>
-	  <div id="" class="col s12">Test 3</div>
-	  <div id="" class="col s12">Test 4</div>
-	</div>
-
-
+			<ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
+					<li class="no-padding">
+							<ul class="collapsible collapsible-accordion">
+									<li class="bold"><a href="#" class="waves-effect waves-teal">Notícias</a></li>
+									<li class="bold"><a href="#" class="waves-effect waves-teal">Política</a></li>
+									<li class="bold"><a href="#" class="waves-effect waves-teal">Esporte</a></li>
+									<li class="bold"><a href="#" class="waves-effect waves-teal">Segurança</a></li>
+									<li class="bold"><a href="#" class="waves-effect waves-teal">Cultura</a></li>
+									<li class="bold"><a href="#" class="waves-effect waves-teal">Contato</a></li>
+								</ul>
+							</li>
+						</ul>
 	</div>
 
 			</header><!-- #header -->
