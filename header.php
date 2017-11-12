@@ -37,7 +37,7 @@
 		<nav class="nav-extended blue darken-4">
 	    <div class="nav-wrapper container">
 	      <a href="<?php $url = home_url(); echo esc_url( $url ); ?>" class="brand-logo"><span class="icon-galo"></span>Página 20</a>
-				<a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only left"><i class="material-icons">menu</i></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse left"><i class="material-icons hide-on-large-only">menu</i></a>
 	    </div>
 			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4 hide-on-med-and-down','menu_class' => 'left')); ?>
 	    </nav>
