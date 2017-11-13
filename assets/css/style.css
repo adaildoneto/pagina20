@@ -1,7 +1,3 @@
-
-
-
-
 /*
 Theme Name: Notícias do Acre - 2017
 Theme URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk"><span>http</span><span>://</span><span>www</span><span>.</span><span>agencia</span><span>.</span><span>ac</span><span>.</span><span>gov</span><span>.</span><span>br</span></a>
@@ -44,8 +40,6 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
  body{
       font-family: 'Cairo', sans-serif;
  }
@@ -57,15 +51,32 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
  .content
  {
      overflow: hidden;
-
  }
+
+h1{
+ font-size: 3.2rem !important;
+ line-height: 3.8rem !important;
+ margin: 0 0 1.3rem 0 !important;
+ font-weight: bold !important;
+}
+
+@media (max-width:600px){
+  h1{
+    font-size: 2.1rem !important;
+    line-height: 2.3rem !important;
+  }
+}
+
+figure{
+  width: 100% !important;
+  margin: 0 !important;
+}
 
 @media only screen and (min-width: 1349px) {
   .container {
     width: 1280px!important;
   }
 }
-
 
 .icon-block {
   padding: 0 15px;
@@ -119,8 +130,6 @@ line-height: 80px;
 
 }
 
-
-
 .row {
     margin-bottom: 0px;
 }
@@ -134,8 +143,8 @@ line-height: 80px;
 }
 
 .thumbnews{
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   margin-right: 5px;
 
 }
@@ -348,11 +357,16 @@ a.button-collapse{
     text-shadow: 0px 2px 2px #075368;
 }
 .titulopeuqeno {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
   font-family: Cairo;
-  padding: 16px 40px 10px 90px;
+  padding: 0 40px 10px 114px;
   display: block;
+}
+.datahora-titulopequeno{
+    position: absolute;
+    bottom: 5px;
+    padding-left: 120px;
 }
 
 @media (min-width: 1024px){
@@ -511,7 +525,7 @@ a.button-collapse{
   background-size: cover !important;
   margin: 0 auto;
   height: 400px;
-  box-shadow: 0px 0px 0px 0px rgb(0, 0, 0), 0px 0px 160px 0px rgb(0, 0, 0) inset;
+  box-shadow: 0px 0px 0px 0px rgb(0, 0, 0), 0px -80px 150px -40px rgb(0, 0, 0) inset;
   border-radius: 3px;
 }
 
@@ -656,18 +670,13 @@ a.button-collapse{
     position: relative;
 }
 
-.painel-noticias2 span{
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    padding: 2px;
-    color: #c4c4c4;
-}
-
 .wdtitle {
     text-transform: uppercase;
     font-size: 0.8rem;
-    padding: 2px;
+    padding: 5px;
     color: #c4c4c4;
+    text-align: right;
+    display: block;
 }
 
 .especiais-img{
@@ -684,11 +693,6 @@ a.button-collapse{
   margin: 0 auto;
   box-shadow: 0px 0px 0px 0px rgb(0, 0, 0), 0px 0px 160px 0px rgb(0, 0, 0) inset;
 }
-
-
-
-
-
 
 .bloco-img-noticias{
   width: 50%;
@@ -737,9 +741,10 @@ a.button-collapse{
   bottom: 0;
 }
 #slider a{
-font-size: 2.1rem !important;
-line-height: 2.1rem !important;
-font-weight: bold;
+  font-size: 2.1rem !important;
+  line-height: 2.1rem !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
 }
 .bloco-des-noticias2 > div{
   padding: 0 !important;
@@ -1070,24 +1075,30 @@ line-height: 1.6rem !important;
     font-variant: small-caps;
 }
 
-.post
-{
+.entry-content p, .entry-content span{
+  font-weight: normal !important;
+  font-family: 'Cairo', sans-serif !important;
+  font-size: 1.3rem !important;
+  padding-bottom: 15px !important;
+  color: #484848 !important;
+  letter-spacing: -0.3px !important;
+  overflow-wrap: break-word !important;
+  line-height: 2.0rem !important;
+}
 
+.entry-content img{
+  width: 100%;
+  height: auto;
+}
 
-@media (max-width:479px)
-{
-    .post
-    {
-
-    }
+.entry-meta{
+  color: #999;
 }
 
 .icons-menu
 {
     margin-bottom: 20px;
 }
-
-
 
 /* Imagens responsivas dentro do Post */
 

@@ -14,13 +14,6 @@
  */
 
 /**
- * Sets content width.
- */
-if ( ! isset( $content_width ) ) {
-	$content_width = 600;
-}
-
-/**
  * Odin Classes.
  */
 require_once get_template_directory() . '/core/classes/class-bootstrap-nav.php';
@@ -72,6 +65,7 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
   register_nav_menus(
     array(
       'menu-pagina20' => __( 'Menu Página 20' ),
+			  'menu-colunas' => __( 'Menu Colunas' ),
           )
   );
 }
@@ -213,12 +207,26 @@ add_action( 'widgets_init', 'odin_widgets_init' );
  * Criando uma area de widgets
  *
  */
+ function menumobile_widgets_init() {
+
+ 	register_sidebar( array(
+ 		'name' => 'Menu para Tablets e Celular',
+ 		'id' => 'menutc',
+		'before_widget' => '<div class="no-padding">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+ 			) );
+ }
+ add_action( 'widgets_init', 'menumobile_widgets_init' );
+
+
 function publicidade300x300_widgets_init() {
 
 	register_sidebar( array(
 		'name' => 'publicidade300x300',
 		'id' => 'publicidade300x300s',
-		'before_widget' => '<div id="item" class="col s12 m6 l3"><div class="painel-noticias2 card"><span>Publicidade</span>',
+		'before_widget' => '<div id="item" class="col s12 m6 l3"><div class="painel-noticias2 card"><span class="wdtitle">Publicidade</span>',
 		'after_widget' => '</div></div>',
 			) );
 }
@@ -229,7 +237,7 @@ function capa20_widgets_init() {
 	register_sidebar( array(
 		'name' => 'Capa Página 20',
 		'id' => 'capa20',
-		'before_widget' => '<div class="card">',
+		'before_widget' => '<div class="no-padding">',
 		'after_widget' => '</div>',
 		'before_title' => '<span class="wdtitle">',
 		'after_title' => '</span>',

@@ -37,28 +37,16 @@
 		<nav class="nav-extended blue darken-4">
 	    <div class="nav-wrapper container">
 	      <a href="<?php $url = home_url(); echo esc_url( $url ); ?>" class="brand-logo"><span class="icon-galo"></span>Página 20</a>
-	      <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li><a href="sass.html">Sass</a></li>
-	        <li><a href="badges.html">Components</a></li>
-	        <li><a href="collapsible.html">JavaScript</a></li>
-	      </ul>
-	      <ul class="side-nav" id="mobile-demo">
-	        <li><a href="sass.html">Sass</a></li>
-	        <li><a href="badges.html">Components</a></li>
-	        <li><a href="collapsible.html">JavaScript</a></li>
-	      </ul> -->
+				<a href="#" data-activates="mobile-demo" class="button-collapse left"><i class="material-icons hide-on-large-only">menu</i></a>
 	    </div>
-			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4','menu_class' => 'left')); ?>
+			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4 hide-on-med-and-down','menu_class' => 'left')); ?>
 	    </nav>
-		<div class="container" style="display:none;">
-	  <div id="" class="col s12">Test 1</div>
-	  <div id="" class="col s12">Test 2</div>
-	  <div id="" class="col s12">Test 3</div>
-	  <div id="" class="col s12">Test 4</div>
-	</div>
-
-
+			<ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
+				<li>
+						<?php dynamic_sidebar( 'capa20' ); ?>
+					</li>
+						<?php if ( dynamic_sidebar('menutc') ) : else : endif; ?>
+						</ul>
 	</div>
 
 			</header><!-- #header -->

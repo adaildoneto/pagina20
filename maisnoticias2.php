@@ -3,7 +3,7 @@
   $args = array (
   'pagination'             => true,
   'posts_per_page'         => '7',
-  'cat'                    => array ('8,9,169,82,6'),
+  'cat'                    => array ('16,11,170,1936,13,15,8,27,169,9,82,78,85,2210,6,148,168,7,166,84'), 
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
