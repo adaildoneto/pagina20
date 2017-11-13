@@ -42,7 +42,10 @@
 			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4 hide-on-med-and-down','menu_class' => 'left')); ?>
 	    </nav>
 			<ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
-				    <?php if ( dynamic_sidebar('menutc') ) : else : endif; ?>
+				<li>
+						<?php dynamic_sidebar( 'capa20' ); ?>
+					</li>
+						<?php if ( dynamic_sidebar('menutc') ) : else : endif; ?>
 						</ul>
 	</div>
 
