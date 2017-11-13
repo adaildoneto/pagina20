@@ -1,5 +1,5 @@
 
-  <div id="slider" class="card">
+  <div id="slider">
   <?php
   $args = array (
   'pagination'             => true,
