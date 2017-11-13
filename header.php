@@ -42,16 +42,7 @@
 			<?php wp_nav_menu(array('theme_location' => 'menu-pagina20','menu' => 'Menu Pagina20', 'container' => 'div', 'container_class' => 'container blue darken-4 hide-on-med-and-down','menu_class' => 'left')); ?>
 	    </nav>
 			<ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
-					<li class="no-padding">
-							<ul class="collapsible collapsible-accordion">
-									<li class="bold"><a href="#" class="waves-effect waves-teal">Notícias</a></li>
-									<li class="bold"><a href="#" class="waves-effect waves-teal">Política</a></li>
-									<li class="bold"><a href="#" class="waves-effect waves-teal">Esporte</a></li>
-									<li class="bold"><a href="#" class="waves-effect waves-teal">Segurança</a></li>
-									<li class="bold"><a href="#" class="waves-effect waves-teal">Cultura</a></li>
-									<li class="bold"><a href="#" class="waves-effect waves-teal">Contato</a></li>
-								</ul>
-							</li>
+				    <?php if ( dynamic_sidebar('menutc') ) : else : endif; ?>
 						</ul>
 	</div>
 

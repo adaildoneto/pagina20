@@ -207,6 +207,20 @@ add_action( 'widgets_init', 'odin_widgets_init' );
  * Criando uma area de widgets
  *
  */
+ function menumobile_widgets_init() {
+
+ 	register_sidebar( array(
+ 		'name' => 'Menu para Tablets e Celular',
+ 		'id' => 'menutc',
+		'before_widget' => '<div class="no-padding">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+ 			) );
+ }
+ add_action( 'widgets_init', 'menumobile_widgets_init' );
+
+
 function publicidade300x300_widgets_init() {
 
 	register_sidebar( array(
