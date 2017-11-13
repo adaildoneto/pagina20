@@ -237,7 +237,7 @@ function capa20_widgets_init() {
 	register_sidebar( array(
 		'name' => 'Capa Página 20',
 		'id' => 'capa20',
-		'before_widget' => '<div class="card">',
+		'before_widget' => '<div class="no-padding">',
 		'after_widget' => '</div>',
 		'before_title' => '<span class="wdtitle">',
 		'after_title' => '</span>',
