@@ -78,6 +78,11 @@ get_header(); ?>
 </div><!-- #content -->
 
 </div>
+<div class="row">
+	<div class="container">
+		<?php dynamic_sidebar( 'banner_slider_big' ); ?>
+		</div>
+</div>
 <div class="row blue-grey darken-2 semmargem">
 	<div class="row blue-grey darken-4">
 		<div class="container">

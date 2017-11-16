@@ -258,6 +258,19 @@ function banner_slider_widgets_init() {
 }
 add_action( 'widgets_init', 'banner_slider_widgets_init' );
 
+function banner_slider_big_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Banner abaixo das noticias',
+		'id' => 'banner_slider_big',
+		'before_widget' => '<div class="card">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="wdtitle">',
+		'after_title' => '</span>',
+			) );
+}
+add_action( 'widgets_init', 'banner_slider_big_widgets_init' );
+
 function footer_widgets_init() {
 
 	register_sidebar( array(
