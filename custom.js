@@ -11,8 +11,8 @@ jQuery(window).load(function() {
 
 jQuery(document).ready(function($) {
    $('#slider').slick({
-       dots:false,
-       arrows: false,
+       dots:true,
+       arrows: true,
        slidesToShow: 1,
        slidesToScroll: 1,
        speed: 800,
