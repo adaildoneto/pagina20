@@ -9,14 +9,14 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
 /* customizando a logo da agencia no login */
 
 .login h1 a {
-background-image: url('https://i1.wp.com/pagina20.net/v2/wp-content/uploads/2017/11/GALO-AZUL2.png');
+background-image: url('http://pagina20.net/v2/wp-content/uploads/2017/11/GALO-AZUL2.png')!important;
 background-size: 100px 100px;
 width: 100px;
 height: 100px;
 }
 
 body.login {
-	background: url('https://i1.wp.com/pagina20.net/v2/wp-content/uploads/2017/03/cidade_5-4.jpg') no-repeat center center fixed;
+	background: url('http://www.agencia.ac.gov.br/wp-content/uploads/2017/06/IMG_1066.jpg') no-repeat center center fixed;
  	-webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
