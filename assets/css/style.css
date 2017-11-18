@@ -23,8 +23,19 @@ body.login {
  	background-size: cover;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Cairo:400,700');
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
+/* @import url('https://fonts.googleapis.com/css?family=Cairo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cinzel'); */
+
+@font-face {
+		font-family: 'Cairo', sans-serif;
+		src: 	url('fonts/Cairo/Cairo-Regular.ttf') format('truetype'),
+					url('fonts/Cairo/Cairo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+		font-family: 'Cinzel', serif;
+		src: 	url('fonts/Cinzel/Cinzel-Regular.ttf') format('truetype');
+}
 
 @font-face {
   font-family: 'icomoon';
