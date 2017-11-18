@@ -6,6 +6,23 @@ Author: Adaildo Neto e Thennyson Passos
 Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk"><span>http</span><span>://</span><span>www</span><span>.</span><span>agencia</span><span>.</span><span>ac</span><span>.</span><span>gov</span><span>.</span><span>br</span></a>
 */
 
+/* customizando a logo da agencia no login */
+
+.login h1 a {
+background-image: url('http://pagina20.net/v2/wp-content/uploads/2017/11/GALO-AZUL2.png');
+background-size: 100px 100px;
+width: 100px;
+height: 100px;
+}
+
+body.login {
+	background: url('https://i1.wp.com/pagina20.net/v2/wp-content/uploads/2017/03/cidade_5-4.jpg') no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Cairo:400,700');
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 

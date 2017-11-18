@@ -430,7 +430,14 @@ if ( is_woocommerce_activated() ) {
 }
 
 
+/*
+ Customizando a area de login
+ */
 
+function custom_login_css() {
+echo '<link rel="stylesheet" type="text/css" href="'.get_stylesheet_directory_uri().'/assets/css/style.css"/>';
+}
+add_action('login_head', 'custom_login_css');
 
 // Vai com tudo shortcodes agora tá liberado via widget de texto
 add_filter('widget_text','do_shortcode');
