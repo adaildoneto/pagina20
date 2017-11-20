@@ -20,8 +20,8 @@ require_once get_template_directory() . '/core/classes/class-bootstrap-nav.php';
 require_once get_template_directory() . '/core/classes/class-shortcodes.php';
 //require_once get_template_directory() . '/core/classes/class-shortcodes-menu.php';
 require_once get_template_directory() . '/core/classes/class-thumbnail-resizer.php';
-// require_once get_template_directory() . '/core/classes/class-theme-options.php';
-// require_once get_template_directory() . '/core/classes/class-options-helper.php';
+require_once get_template_directory() . '/core/classes/class-theme-options.php';
+require_once get_template_directory() . '/core/classes/class-options-helper.php';
 // require_once get_template_directory() . '/core/classes/class-post-type.php';
 // require_once get_template_directory() . '/core/classes/class-taxonomy.php';
 // require_once get_template_directory() . '/core/classes/class-metabox.php';
@@ -441,3 +441,54 @@ add_action('login_head', 'custom_login_css');
 
 // Vai com tudo shortcodes agora tá liberado via widget de texto
 add_filter('widget_text','do_shortcode');
+
+function odin_theme_settings_example() {
+
+    $settings = new Odin_Theme_Options(
+        'odin-settings', // Slug/ID of the Settings Page (Required)
+        'Opções do tema', // Settings page name (Required)
+        'manage_options' // Page capability (Optional) [default is manage_options]
+    );
+
+    $settings->set_tabs(
+        array(
+            array(
+                'id' => 'odin_html5', // Slug/ID of the Settings tab (Required)
+                'title' => __( 'Configuraçoes da Capa', 'odin' ), // Settings tab title (Required)
+            ),
+          )
+    );
+
+    $settings->set_fields(
+        array(
+            'odin_html5_fields_section' => array( // Slug/ID of the section (Required)
+                'tab'   => 'odin_html5', // Tab ID/Slug (Required)
+                'title' => __( 'Resolvendo o joelho na capa', 'odin' ), // Section title (Required)
+                'fields' => array( // Section fields (Required)
+
+                    /**
+                     * Default input examples.
+                     */
+
+                    // Text Field.
+										// HTML5 number field.
+                     array(
+                         'id'          => 'materiasP20', // Required
+                         'label'       => __( 'Quantidade de Matérias', 'odin' ), // Required
+                         'type'        => 'input', // Required
+                         // 'default'  => 'Default text', // Optional
+                         'description' => __( 'use com responsabilidade', 'odin' ), // Optional
+                         'attributes'  => array( // Optional (html input elements)
+                             'type' => 'number',
+                             'max'  => 20,
+                             'min'  => 10
+                         )
+                     ),
+
+                    )
+                )
+        	)
+    );
+}
+
+add_action( 'init', 'odin_theme_settings_example', 1 );

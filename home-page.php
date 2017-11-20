@@ -29,11 +29,11 @@ get_header(); ?>
 		<div id="grid">
 			<?php if ( dynamic_sidebar('publicidade300x300') ) : else : endif; ?>
 			<?php
+			$odin_general_opts = get_option( 'odin_html5' );
 			$args = array (
 			  'pagination'             => true,
-			  'paged'                  => $paged,
 				'cat'										 => array ('-4,-8,-9,-169,-82,-6'),
-			  'posts_per_page'         => '14',
+			  'posts_per_page'         => $odin_general_opts ['materiasP20'],
 			  'ignore_sticky_posts'    => true,
 
 			);
