@@ -1103,9 +1103,9 @@ line-height: 1.6rem !important;
     font-variant: small-caps;
 }
 
-.entry-content p, .entry-content span{
+.entry-content p, {
   font-weight: normal !important;
-  font-family: 'Cairo', sans-serif !important;
+  font-family: 'roboto', sans-serif !important;
   font-size: 1.3rem !important;
   padding-bottom: 15px !important;
   color: #484848 !important;
