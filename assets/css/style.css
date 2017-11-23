@@ -99,7 +99,7 @@ h1::first-letter {
 	border-radius: 10px;
 	padding: 5px;
 	background-color: #0D47A1;
-	margin-right: 5px;
+	margin: 5px;
 }
 
 @media (max-width:600px){
