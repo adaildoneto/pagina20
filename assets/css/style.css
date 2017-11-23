@@ -712,6 +712,7 @@ a.button-collapse{
   background-repeat: no-repeat !important;
   background-size: cover !important;
   margin: 0 auto;
+	background-position-y: top !important;
 }
 
 .especiais-img2{
