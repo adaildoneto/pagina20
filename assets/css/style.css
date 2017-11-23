@@ -83,11 +83,11 @@ body.login {
 
 h1{
 	font-size: 3.2rem !important;
-	line-height: 3rem !important;
+	line-height: 3.4rem !important;
 	margin: 0px 0px 5px 0px !important;
 	font-family: Cairo !important;
 	text-align: start;
-	font-weight: bold !important;
+	font-weight: 400 !important;
 }
 
 h1::first-letter {
