@@ -21,7 +21,15 @@
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta">
-				<?php odin_posted_on(); ?>
+				<div class="categoria">
+					<?php $categories = get_the_category();
+								 if ( ! empty( $categories ) ) {
+										 echo '<a class="chip blue darken-4 white-text" href="'. esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+										 }?>
+
+					|| <span class="data-post"> <?php the_time('d.m.Y');?> </span> || <span class="hora-post"> <?php the_time('G:i');?></span>
+<hr>
+				</div>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
