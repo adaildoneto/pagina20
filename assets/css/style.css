@@ -1123,10 +1123,6 @@ line-height: 1.6rem !important;
   line-height: 2.0rem !important;
 }
 
-.entry-content img{
-  width: 100%;
-  height: auto;
-}
 
 .entry-meta{
   color: #999;
@@ -1511,3 +1507,32 @@ body.login {
 }
 
 /* Aspas via shortcodes */
+
+/* image alignment & styles */
+
+img {
+	margin: 0 0 1.5em 0;
+	max-width: 100%;
+}
+
+.alignleft, img.alignleft, img[align=left] {
+		margin-right:1.5em;
+		margin-bottom:1em;
+		margin-top:.75em;
+		display: inline;
+		float: left;
+	}
+
+.alignright, img.alignright, img[align=right] {
+	margin-left:1.5em;
+	margin-bottom:1em;
+	margin-top:.75em;
+	display: inline;
+	float: right;
+}
+.aligncenter, img.aligncenter, img[align=center] {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+}
