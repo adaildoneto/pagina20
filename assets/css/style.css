@@ -82,10 +82,24 @@ body.login {
  }
 
 h1{
- font-size: 3.2rem !important;
- line-height: 3.8rem !important;
- margin: 0 0 1.3rem 0 !important;
- font-weight: bold !important;
+	font-size: 3.2rem !important;
+	line-height: 3rem !important;
+	margin: 0px 0px 5px 0px !important;
+	font-family: Cairo !important;
+	text-align: start;
+	font-weight: bold !important;
+}
+
+h1::first-letter {
+	font-size: 250% !important;
+	color: #ECEFF1;
+	font-weight: bolder !important;
+	float: left !important;
+	display: block !important;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #0D47A1;
+	margin-right: 5px;
 }
 
 @media (max-width:600px){
