@@ -12,7 +12,7 @@
 
 <div id="item" class="col s12 m12 l6">
 	<div class="">
-	      <div class="card painel-noticias" >
+	      <div class="card painel-noticias blue darkne-5" >
 
 	          <a href="<?php the_Permalink()?>" title="<?php the_title();?>">
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'destaque1' ); ?>
@@ -33,7 +33,7 @@
 						</div>
 	          <div class="bloco-des-noticias">
 
-	              <a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="destaque-titulo blue-text text-darken-2">
+	              <a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="destaque-titulo white-text">
 	                <?php
 	                $tituloPost = get_the_title();
 	                $tituloCapa = get_post_meta( $post->ID,'titulo-capa', true );

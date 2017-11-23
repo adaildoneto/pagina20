@@ -611,8 +611,8 @@ a.button-collapse{
 }
 
 .destaque-titulo {
-  font-size: 1.4rem !important;
-  line-height: 1.4rem !important;
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
 }
 
 
@@ -675,7 +675,7 @@ a.button-collapse{
 }
 .painel-noticias{
   overflow:hidden;
-  height: 175px;
+  height: 350px;
   position: relative;
 }
 
@@ -725,7 +725,7 @@ a.button-collapse{
 .bloco-img-noticias{
   width: 50%;
   float: left;
-  height: 175px;
+  height: 350px;
 }
 
 .bloco-img-noticias2{
@@ -751,7 +751,7 @@ a.button-collapse{
 @media (max-width: 480px) {
 .bloco-img-noticias, .bloco-img-noticias5{
   width: 50%;
-  height: 175px;
+  height: 200px;
 }
 }
 .bloco-titulo-slider{
