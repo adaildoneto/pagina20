@@ -289,8 +289,8 @@ function video_init() {
 	register_sidebar( array(
 		'name' => 'Video Destaque',
 		'id' => 'videodestaque',
-		'before_widget' => '<div class="col s12 m12 l8"><div class="video-container">',
-		'after_widget' => '</div></div>',
+		'before_widget' => '<div class="col s12 m12 l8">',
+		'after_widget' => '</div>',
 		'before_title' => '<span class="wdtitle">',
 		'after_title' => '</span>',
 			) );
