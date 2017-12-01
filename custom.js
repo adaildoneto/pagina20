@@ -60,5 +60,5 @@ jQuery(document).ready(function($) {
   });
 
   jQuery(document).ready(function($) {
-  $('.page-numbers current').addClass('chip blue darken-4 white-text');
+  $('.current').addClass('chip blue darken-4 white-text');
   });
