@@ -1338,6 +1338,22 @@ nav .button-collapse {
     font-size: 17px;
 }
 
+/* Relacionados */
+
+#jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+    text-transform: none;
+    font-family: inherit;
+    display: block;
+    max-width: 100%;
+    padding: 10px !important;
+    margin-top: -20px !important;
+}
+
+#jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
+    margin: 10px;
+    padding: 5px !important;
+    background-color: #f5f5f5 !important;
+}
 /* Filtros */
 
 .efeito {
