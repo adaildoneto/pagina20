@@ -365,6 +365,14 @@ wp_enqueue_script( 'custom-java', get_stylesheet_directory_uri() . '/custom.js',
 }
 add_action( 'wp_enqueue_scripts', 'myprefix_enqueue_scripts' );
 
+/*function to add async to all scripts*/
+function js_async_attr($tag){
+
+# Add async to all remaining scripts
+return str_replace( ' src', ' async="async" src', $tag );
+}
+add_filter( 'script_loader_tag', 'js_async_attr', 10 );
+
 /**
  * Odin custom stylesheet URI.
  *
