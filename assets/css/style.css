@@ -1322,16 +1322,21 @@ nav .button-collapse {
 
 /* Legendas */
 .wp-caption-text {
-	text-align: center;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    margin-top: -25px;
 }
 
-
-.wp-caption p {
-	font-size: 11pt;
-	color: #CCC;
-	padding: 5px 20px 20px 20px;
+.wp-caption {
+    background-color: #f5f5f5;
+    margin: 10px !important;
 }
 
+.entry-content p {
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+}
 
 /* Filtros */
 
