@@ -58,3 +58,7 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
   $('.button-collapse').sideNav();
   });
+
+  jQuery(document).ready(function($) {
+  $('.page-numbers current').addClass('chip blue darken-4 white-text');
+  });
