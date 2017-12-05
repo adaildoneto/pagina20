@@ -683,10 +683,20 @@ a.button-collapse{
   margin-top: 10px;
   display: block;
 }
+
 .painel-noticias{
   overflow:hidden;
   height: 350px;
   position: relative;
+}
+
+@media (max-width: 480px) {
+	.painel-noticias{
+	  overflow:hidden;
+	  height: 200px !important;
+	  position: relative;
+	}
+
 }
 
 .painel-noticias3{
