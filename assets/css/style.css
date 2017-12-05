@@ -850,8 +850,25 @@ line-height: 1.6rem !important;
 .bloco-des-noticias{
   width: 50%;
 }
+.bloco-des-noticias a{
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: block;
+  line-height: 22px;
+  padding-top: 5px;
 }
-.bloco-des-noticias a, .bloco-des-noticias3 a, .bloco-des-nogabinete a, .bloco-des-artigo a, .bloco-des-video a{
+}
+
+.bloco-des-noticias a{
+  font-size: 1.9rem;
+  font-weight: bold;
+  display: block;
+  line-height: 22px;
+  padding-top: 5px;
+}
+
+
+.bloco-des-noticias3 a, .bloco-des-nogabinete a, .bloco-des-artigo a, .bloco-des-video a{
   font-size: 1.4rem;
   font-weight: bold;
   display: block;
