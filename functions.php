@@ -226,8 +226,8 @@ function publicidade300x300_widgets_init() {
 	register_sidebar( array(
 		'name' => 'publicidade300x300',
 		'id' => 'publicidade300x300s',
-		'before_widget' => '<div id="item" class="col s12 m6 l3"><div class="painel-noticias2 card"><div class="bloco-img-noticia2 especiais-img">',
-		'after_widget' => '</div></div></div>',
+		'before_widget' => '<div id="item" class="col s12 m6 l3"><div class="painel-noticias2 card">',
+		'after_widget' => '</div></div>',
 			) );
 }
 add_action( 'widgets_init', 'publicidade300x300_widgets_init' );

@@ -1570,10 +1570,7 @@ body.login {
 
 /* image alignment & styles */
 
-img {
-	margin: 0 0 20px 0;
-	max-width: 100%;
-}
+
 
 .alignleft, img.alignleft, img[align=left] {
 		margin-right:1.5em;
