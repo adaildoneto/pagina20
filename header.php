@@ -23,6 +23,14 @@
 	<!--Import Google Icon Font-->
 			 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+			 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7687393966498367",
+    enable_page_level_ads: true
+  });
+</script>
+
 	<?php wp_head(); ?>
 
 
