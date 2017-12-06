@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file.
+ * Template Name: Capa do Página 20
  *
  * This is the most generic template file in a WordPress theme and one of the
  * two required files for a theme (the other being style.css).
@@ -27,7 +27,7 @@ get_header(); ?>
 
 	<div id="content" tabindex="-1" role="main" class="container">
 		<div id="grid">
-			<?php if ( dynamic_sidebar('publicidade300x300') ) : else : endif; ?>
+			<?php ?>
 			<?php
 			$odin_general_opts = get_option( 'odin_html5' );
 			$args = array (
@@ -69,6 +69,13 @@ get_header(); ?>
 
 					get_template_part( 'content', 'home' );
 				}
+
+				if ( is_dynamic_sidebar('publicidade300x300') ) {
+					if ( $query->current_post == 6 ) {  // first post
+
+							dynamic_sidebar('publicidade300x300');
+			 								}
+					}
 
 		    wp_reset_postdata();
 
