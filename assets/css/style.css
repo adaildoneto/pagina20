@@ -1595,3 +1595,7 @@ img.size-full {
 	display: block;
 	clear: both;
 }
+
+.astero {
+	height: 100% !important;
+}
