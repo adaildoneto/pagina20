@@ -12,9 +12,10 @@ get_header(); ?>
 			<?php if ( have_posts() ) : ?>
 
 				<header class="page-header">
-					<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'odin' ), get_search_query() ); ?></h1>
+					<h2 class="page-title"><?php printf( __( 'Search Results for: %s', 'odin' ), get_search_query() ); ?></h2>
 				</header><!-- .page-header -->
-
+<div class="row">
+	<div class="container">
 					<?php
 						// Start the Loop.
 						while ( have_posts() ) : the_post();
@@ -37,7 +38,8 @@ get_header(); ?>
 
 				endif;
 			?>
-
+</div>
+</div>
 	</main><!-- #main -->
 
 <?php
