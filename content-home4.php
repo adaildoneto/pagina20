@@ -14,8 +14,8 @@
 		<div class="painel-noticias2 card">
 
 					<a href="<?php the_Permalink()?>" title="<?php the_title();?>">
-						<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'destaque2' ); ?>
-				<div class="bloco-img-noticias2 especiais-img img-slider efeito" style="background: url('<?php echo $image[0]; ?>');">
+		
+				<div class="bloco-img-noticias2 especiais-img img-slider efeito" style="background: url('<?php the_post_thumbnail_url( 'postnews2' ); ?>');">
 
 				</div>  </a>
 				<div class="nocanto1">

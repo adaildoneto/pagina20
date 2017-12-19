@@ -74,7 +74,10 @@ add_action( 'init', 'register_my_menus' );
 		 /* Add post_thumbnails suport.
 		 */
 		add_theme_support( 'post-thumbnails' );
-
+		add_image_size( "postnews", 300, 200, array ( 'center', 'top' ) );
+		add_image_size( "postnews2", 300, 350, array ( 'center', 'top' ) );
+		add_image_size( "postnews3", 620, 350, array ( 'center', 'top' ) );
+		add_image_size( "postthumb", 100, 100, array ( 'center', 'top' ) );
 		/**
 		 * Add feed link.
 		 */

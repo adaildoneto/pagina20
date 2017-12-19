@@ -15,8 +15,8 @@
 	      <div class="card painel-noticias blue darken-4" >
 
 	          <a href="<?php the_Permalink()?>" title="<?php the_title();?>">
-			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'destaque1' ); ?>
-			<div class="bloco-img-noticias especiais-img" style="background: url('<?php echo $image[0]; ?>');">
+
+			<div class="bloco-img-noticias especiais-img" style="background: url('<?php the_post_thumbnail_url( 'postnews2' ); ?>');">
 
 	          </div></a>
 						<div class="nocanto1">
