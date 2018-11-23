@@ -7,11 +7,10 @@
  */
 
 get_header(); ?>
-<div class="row">
 <div class="container">
-<div class="col m1 l1  offset-l1 offset-m1 show-only-med-up">
-</div>
-		<div id="content" class="col s12 m7 l7" tabindex="-1" role="main">
+<div class="row">
+
+		<div id="content" class="col s12 m9 l9" tabindex="-1" role="main">
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
