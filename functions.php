@@ -500,19 +500,40 @@ add_action( 'init', 'odin_theme_settings_example', 1 );
 
 
 //img-responsive para as imagens dentro do file_get_contents
-function add_responsive_class($content){
+add_filter( 'the_content', 'wpse_add_img_post_class' );
+function wpse_add_img_post_class( $content ) {
+    // Bail if there is no content to work with.
+    if ( ! $content ) {
+        return $content;
+    }
 
-        $content = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
-        $document = new DOMDocument();
-        libxml_use_internal_errors(true);
-        $document->loadHTML(utf8_decode($content));
+    // Create an instance of DOMDocument.
+    $dom = new \DOMDocument();
 
-        $imgs = $document->getElementsByTagName('img');
-        foreach ($imgs as $img) {
-           $img->setAttribute('class','responsive-img');
-        }
+    // Supress errors due to malformed HTML.
+    // See http://stackoverflow.com/a/17559716/3059883
+    $libxml_previous_state = libxml_use_internal_errors( true );
 
-        $html = $document->saveHTML();
-        return $html;
+    // Populate $dom with $content, making sure to handle UTF-8.
+    // Also, make sure that the doctype and HTML tags are not added to our
+    // HTML fragment. http://stackoverflow.com/a/22490902/3059883
+    $dom->loadHTML( mb_convert_encoding( $content, 'HTML-ENTITIES', 'UTF-8' ),
+          LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD );
+
+    // Restore previous state of libxml_use_internal_errors() now that we're done.
+    libxml_use_internal_errors( $libxml_previous_state );
+
+    // Create an instance of DOMXpath.
+    $xpath = new \DOMXpath( $dom );
+
+    // Get images then loop through and add additional classes.
+    $imgs = $xpath->query( "//img" );
+    foreach ( $imgs as $img ) {
+        $existing_class = $img->getAttribute( 'class' );
+        $img->setAttribute( 'class', "{$existing_class} responsive-img" );
+    }
+
+    // Save and return updated HTML.
+    $new_content = $dom->saveHTML();
+    return $new_content;
 }
-add_filter        ('the_content', 'add_responsive_class');
