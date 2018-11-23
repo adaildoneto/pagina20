@@ -52,9 +52,9 @@
 							 	 'theme_location'    => 'menu-pagina20',
 								 'menu'              => 'Menu Pagina20',
 								 'menu_id' 			=> 'primary-menu',
-								 'menu_class' 		=> 'container left hide-on-med-and-down',
+								 'menu_class' 		=> 'left hide-on-med-and-down',
 								 'container'				=> 'div',
-								 'container_class'	=>'blue darken-4',
+								 'container_class'	=>'container blue darken-4',
 								 'depth'             =>  2,
 								 'walker'			=>	new Materialize_Walker_Nav_Menu(),
 						 ));
