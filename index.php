@@ -45,7 +45,7 @@ get_header(); ?>
 
 		      $query->the_post();
 
-				 if  ( in_category( '23' ) ) {  // Destaque Retangular
+				 if  ( in_category( '19' ) ) {  // Destaque Retangular
 
 
 						get_template_part( 'content', 'home2' );
@@ -53,14 +53,14 @@ get_header(); ?>
 				}
 
 
-				else if (  in_category( '64' ) ) {  // Destaque GRande
+				else if (  in_category( '4' ) ) {  // Destaque GRande
 
 
 						 get_template_part( 'content', 'home3' );
 
 					 }
 
-				else if (  in_category( '22' ) ) {  // destaque foto
+				else if (  in_category( '7' ) ) {  // destaque foto
 
 		 						 get_template_part( 'content', 'home4' );
 
