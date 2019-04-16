@@ -276,14 +276,39 @@ add_action( 'widgets_init', 'banner_slider_big_widgets_init' );
 
 function footer_widgets_init() {
 
-	register_sidebar( array(
-		'name' => 'Widgets do Footer',
-		'id' => 'wdfooter',
-		'before_widget' => '<div class="col s12 m6 l4">',
-		'after_widget' => '</div>',
-		'before_title' => '<span class="wdtitle">',
-		'after_title' => '</span>',
-			) );
+	register_sidebar(
+array(
+	'name' => __( 'Rodape 1', 'odin' ),
+	'id' => 'rodape1',
+	'description' => __( 'Footer 1', 'odin' ),
+	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<div class="row"><h6 class="wtitle">',
+	'after_title' => '</h6><hr class="style-one"></div>',
+)
+);
+register_sidebar(
+array(
+	'name' => __( 'Rodape 2', 'odin' ),
+	'id' => 'rodape2',
+	'description' => __( 'Footer 2', 'odin' ),
+	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<div class="row"><h6 class="wtitle">',
+	'after_title' => '</h6><hr class="style-one"></div>',
+)
+);
+register_sidebar(
+array(
+	'name' => __( 'Rodape 3', 'odin' ),
+	'id' => 'rodape3',
+	'description' => __( 'Footer 3', 'odin' ),
+	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<div class="row"><h6 class="wtitle">',
+	'after_title' => '</h6><hr class="style-one"></div>',
+)
+);
 }
 add_action( 'widgets_init', 'footer_widgets_init' );
 
