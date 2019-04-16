@@ -8,20 +8,7 @@ Author URI: <a rel="nofollow" href="http://www.agencia.ac.gov.br" class="vglnk">
 
 /* customizando a logo da agencia no login */
 
-.login h1 a {
-background-image: url('http://pagina20.net/v2/wp-content/uploads/2017/11/GALO-AZUL2.png')!important;
-background-size: 100px 100px;
-width: 100px;
-height: 100px;
-}
 
-body.login {
-	background: url('http://pagina20.net/v2/wp-content/uploads/2017/11/13383641483_3c2bd7ae67_o.jpg') no-repeat center center fixed;
- 	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
- 	background-size: cover;
-}
 
 /* @import url('https://fonts.googleapis.com/css?family=Cairo:400,700');
 @import url('https://fonts.googleapis.com/css?family=Cinzel'); */
@@ -280,105 +267,10 @@ margin-top: 10px;}
       -o-transition: right 0.3s;
       transition: right 0.3s; }
 */
-
-#search {
-  position: relative;
-  float: left;
-  width: 60px;
-  height: 60px;
-  margin-left: -60px;
-  margin-top: 10px;}
-
-@media (max-width: 480px) {
-  #search {
-  margin-top: 0;
-}}
-
-#label {
-  width: 60px;
-  height: 60px;
-  position: relative;
-  z-index: 999; }
-  #label label {
-    display: block;
-    width: 30px;
-    height: 30px;
-    background: url("assets/img/search.png") 0 0 no-repeat;
-    font-size: 0;
-    color: rgba(0, 0, 0, 0);
-    text-indent: -9999px;
-    cursor: pointer;
-    position: absolute;
-  top: 8px;
-  right: 0; }
-  #label.active label {
-    background: url("assets/img/search.png") -30px 0 no-repeat; }
-
-#input {
-  position: absolute;
-  top: -10px;
-  right: 0;
-  width: 450px;
-  height: 64px;
-  z-index: 99 !important;
-  overflow: hidden; }
-  @media (max-width: 480px) {
-  #input {
-    width: 300px !important;
-    height: 56px;
-    top: -5px; }
-  }
-  #input input {
-    display: block;
-    position: absolute;
-    bottom: 80px;
-    width: 450px;
-    height: 100%;
-    margin: 0;
-    padding: 0 10px;
-    border: none;
-    background-color: #fff;
-    color: #333;
-    font-size: 18px;
-    -webkit-backface-visibility: none;
-    -moz-backface-visibility: none;
-    -ms-backface-visibility: none;
-    backface-visibility: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-transition: bottom 0.4s;
-    -moz-transition: bottom 0.4s;
-    -ms-transition: bottom 0.4s;
-    -o-transition: bottom 0.4s;
-    transition: bottom 0.4s; }
-@media (max-width:480px){
-  #input input {
-    width: 300px !important;
-  }
-}
-    #input input:focus {
-      outline: none; }
-  #input.focus {
-    z-index: 20; }
-  /*#input.focus input {
-    left: 0;
-    -webkit-transition: left 0.3s;
-    -moz-transition: left 0.3s;
-    -ms-transition: left 0.3s;
-    -o-transition: left 0.3s;
-    transition: left 0.3s; }*/
-    #input.focus input {
-      bottom: 0;
-      -webkit-transition: bottom 0.4s;
-      -moz-transition: bottom 0.4s;
-      -ms-transition: bottom 0.4s;
-      -o-transition: bottom 0.4s;
-      transition: bottom 0.4s; }
-
-input[type="text"]{
-  border-bottom: 0 !important;
-	width: 80%!important;
+::placeholder {
+  color: #545454;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
 }
 
 a.button-collapse{
