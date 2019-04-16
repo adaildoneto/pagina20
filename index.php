@@ -28,12 +28,12 @@ get_header(); ?>
 	<div id="content" tabindex="-1" role="main" class="container">
 
 		<div id="grid">
-					<?php if ( dynamic_sidebar('publicidade300x300') ) : else : endif; ?>
+
 			<?php
 			$args = array (
 			  'pagination'             => true,
 			  'paged'                  => $paged,
-			  'posts_per_page'         => '14',
+			  'posts_per_page'         => '12',
 			  'ignore_sticky_posts'    => true,
 
 			);
@@ -69,6 +69,13 @@ get_header(); ?>
 
 					get_template_part( 'content', 'home' );
 				}
+
+				if ( $query->current_post == 6 ) {  // first post
+
+		    		if ( dynamic_sidebar('publicidade300x300') ) : else : endif;
+
+		    }
+
 
 		    wp_reset_postdata();
 
