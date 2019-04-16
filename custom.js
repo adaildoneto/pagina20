@@ -48,5 +48,26 @@ jQuery(document).ready(function($) {
   });
 
   jQuery(document).ready(function($) {
-  $('.current').addClass('chip blue darken-4 white-text');
+    $('#post').find('img').addClass('responsive-img');
+$('.wp_pagination').find('ul').addClass('pagination');
+$('.pagination').find('li').addClass('waves-effect');
+$('.calendar_wrap').addClass('white-text');
+$('#wp-calendar').addClass('centered');
+$('.bump-view').addClass('news black-text collection-item');
+$('.widget_top-posts').find('ul').addClass('collection');
+$('#wp-calendar').find('a').addClass('chip orange lighten-4 red-text darken-text-3');
+$(".nav-item-dropdown-button").dropdown({constrainWidth: false, hover: false, coverTrigger:false,});
+$(".side-menu-nav-item-dropdown-button").dropdown({constrainWidth: false, hover: false,});
+$(".sidenav").sidenav();
+$(".parallax").parallax();
+$(".modal").modal();
+$(".wp-caption").width('auto').height('auto');
+$(".wp-caption-text").width('auto').height('auto');
+$(".collapsible").collapsible();
+$("iframe[src*='youtube']").parent().fitVids();
+$("iframe[src*='web.facebook']").parent().fitVids();
+$(".rpwe-ul").addClass('collection');
+$(".rpwe-li").addClass('collection-item');
+$(".rpwe-title").find('a').addClass('grey-text text-darken-4 news-recente');
+$('.current').addClass('chip blue darken-4 white-text');
   });
