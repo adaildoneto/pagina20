@@ -14,7 +14,7 @@
 		<div class="painel-noticias2 card">
 
 					<a href="<?php the_Permalink()?>" title="<?php the_title();?>">
-						
+
 				<div class="bloco-img-noticias2 especiais-img img-slider efeito" style="background: url('<?php the_post_thumbnail_url( 'postnews3' ); ?>');">
 
 				</div>  </a>
@@ -25,11 +25,7 @@
 										 }?>
 
 				</div>
-				<div class="categoria nocanto2">
-					<span class="white-text data-post"> <?php the_time('d.m.Y');?> </span>
-	        <br><span class="white-text hora-post"> <?php the_time('G:i');?></span>
-
-				</div>
+		
 				<div class="bloco-des-noticias2">
 						<div class="card-content">
 								<a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="white-text destaque-fonte">

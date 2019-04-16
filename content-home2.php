@@ -26,11 +26,7 @@
 												 }?>
 
 						</div>
-						<div class="categoria nocanto3">
-							<span class="white-text data-post"> <?php the_time('d.m.Y');?> </span>
-			        <br><span class="white-text hora-post"> <?php the_time('G:i');?></span>
-
-						</div>
+					
 	          <div class="bloco-des-noticias">
 
 	              <a href="<?php the_Permalink()?>" title="<?php the_title();?>" class="destaque-titulo white-text">

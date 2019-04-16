@@ -4,7 +4,11 @@
   $args = array (
   'pagination'             => true,
   'posts_per_page'         => '4',
+<<<<<<< HEAD
   'cat'                    => array(' 17'),
+=======
+  'cat'                    =>
+>>>>>>> 18a726653fb18cbab7e3a55c6ad6865c4790eb1b
   'ignore_sticky_posts'    => true,
   'order'                  => 'DESC',
   'orderby'                => 'date',
