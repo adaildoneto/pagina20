@@ -64,8 +64,6 @@ $(".modal").modal();
 $(".wp-caption").width('auto').height('auto');
 $(".wp-caption-text").width('auto').height('auto');
 $(".collapsible").collapsible();
-$("iframe[src*='youtube']").parent().fitVids();
-$("iframe[src*='web.facebook']").parent().fitVids();
 $(".rpwe-ul").addClass('collection');
 $(".rpwe-li").addClass('collection-item');
 $(".rpwe-title").find('a').addClass('grey-text text-darken-4 news-recente');
