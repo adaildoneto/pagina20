@@ -44,7 +44,7 @@
       appId      : '629417637481520',
       cookie     : true,
       xfbml      : true,
-      version    : '{api-version}'
+      version    : '3.2'
     });
 
     FB.AppEvents.logPageView();
